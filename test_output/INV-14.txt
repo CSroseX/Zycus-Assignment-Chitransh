@@ -1,0 +1,31 @@
+TAX INVOICE                                       Invoice Date                                    Silverbrook Media Limited
+01 Mav 2026                                   Attention: Finance
+Znd Floor
+Northwind Services UK Ltd                                            Invoice Number                              Parnu mnt 117
+Rua do Ouro 175                                                          INV-1587                                          Parnu mnt 26
+Taper Studio                                                                                                                        London
+London                                                                        Reference                                        Middlesex
+SE1 4GT                                                                      June 2026 Kadaka tee 119              N1 9RY
+Northwuhagement Fee                    UNITED KINGDOM
+VAT Number
+474927490
+UTR Number
+18823 19423
+Description                                                      Quantity               Unit Price                VAT                      Amount GBP
+Znd Floor
+Management Fee for June 2026                                   1.00                  14,620.18                20%                             14,620.18
+Business Rates for June 2026                                       1.00                    9,987.50            No VAT                              9,987.50
+Utilities for June 2026                                                  1.00                    1,435.00                20%                               1,435.00
+Subtotal                             26,C 042.68
+Total No VAT                                     0.00
+Total VAT 20%                               3,211.04
+Invoice Total GBP                             29,253.72
+Total Net Payments GBP                                     0.00
+Amount Due GBP                             29,253.72
+Due Date: 31 May 2026
+Bank name: Meridian Bank
+Sort code: 20-41-50
+Account number: 21823016
+Swift code: SKYYOU1O
+IBAN: GB84 FAQA 54689987784014
+Company Registration No: 43214229 . Registered Office: Znd Floor , Parnu mnt 117    Pamu mnt 26           London, Middlesex; NI 9RY, United Kingdom

@@ -1,0 +1,89 @@
+ARVE INVOICE
+1              Muuja Saatja Seller Consignor
+1            Northwind Operations OU S?0 Jo?0 da Talh
+Kuupaev Date                              Arve nr. Invoice No.
+J L         Parnu mnt 10
+07 .04.26                         18109293
+1
+U             2695671  S?0  Jo?0  da  Talha                                                                                                               er No.
+RO RarG Payer of invoice
+Ref.                                               EE398766194
+# 2          Northwind OPERATIONS OU 2505212
+4
+JH
+Lindenstrasse 15
+10134  TALLINN
+1            EESTI                                                                                                                    Meridian Media
+Hh 1 2
+Vastuvotja Consignee                                                                                            Gartenweg 12
+Exm +(OSenara9m@blackpine-
+Northwind Operations OU Dos Hermanas
+1                                                                                                                                                                                                            ~media ee
+Parnu mnt 43                                                                                                               WWW https:IIcloverdale-mobility.ee
+1
+J                                                                        kmanas
+2                                                                                                                                                               Re       64670685
+H     Veovahend Vehicle                      Lahtepunkt Place of departure
+VATNo EE063536009
+5?0  Jo?0  da  Talha
+Ih
+1                                                                   Saatmise kuupaev Dispatched on
+1                                                                   01  04 26
+U
+Pealelaadimise koht From                 Tarneklausel Term of delivery
+S?0  Jo?0  da  Talh
+5                                                             Sihtpunkt Destination
+Umberlaadimise koht
+H
+8                                                                Dos  Hermanas                 EXW S?0  Jo?0  da  Talha
+3
+1         Markeerinaud. kohtade arv ia kauba nimetus. Marks and Nos. No of Pieces and Nature of Goods
+4             3  CTN  spares
+20         REFNR FJ19363 | STK-PTOO1-26-000084
+EEO6 3132 2643 8105 BBal9 Xrutokaa Arvestuslik kaal
+ight            Volume          Chargeable weight
+64 , 7              0,144                          65
+Lisaandmed Additional information                       Selgitused Explanations                                        KM VAT
+408 AGREED PICKUP  FEE                                                                                           24 , 0  5                       5, 00
+551  TARNEKULUD                                                                                                                24  0  8                     53  40
+7
+805  AGREED DELIVERY FEE                                                                                      24  0  5                       5 , 00
+3
+13             920  BAF  6 , 93%   (16. 03-29 03)                                                                           24  0  5                       3,70
+Hadaas 0
+KM 24, 0  5                                                                 67 ,10                                                                         16,11
+DH 1
+#
+3
+U
+6      1
+9
+3
+1
+4 1
+W
+1
+10 21
+3
+1 H
+4   7
+1 ]
+{
+HH
+9
+1
+1
+1l 2
+3              MAKSETAHTAEG
+# } U   DUE DATE               28 04 26
+Wivisr DUE DATE    0 .19 /PAEVAS
+3
+N                                                                                                                                                                              EUR                 83 , 21
+# 4        |    Eksped                   Jonas      Meyer      (alex haas@brightside-mobility.ee
+82       Tel       +403 3982 8055                                               (PRETENSIOONID PALUME ESITADA 10 PAEVA JOOKSUL)
+KH
+2
+3   9        Saaja Bene            Meridian Media
+=               Pank Bank Oakhaven Bank                                                                          Pank B      Redwater BEarimae 2, Tallinn
+SWIF              SZWGVJOV                                                                             SWIF   USQNDC2G
+IBAN: EEO6 3132 2643 8105 8219 Xrutokaa                                               IBAN: EEO5 9834 1202 5448 4875

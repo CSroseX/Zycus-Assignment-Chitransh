@@ -1,0 +1,797 @@
+Page 10f 2
+Invoice Number       554701215
+Invoice Date             01/06/2026
+Delivery Group        5191407
+Customs Consolidated Invoice
+SELLER                                                                                                   SHIP TO
+Novatek US LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+Redwater Mobility BV                                                                                     PamDamnhdg2102
+Avenida Central 455                                                                                      Gadcategyeg 14
+1950 KRAAINEM                                                                                          34912 KAGITHANE ISTANBUL CITY
+BELGIUM                                                                                                     TURKEY
+Tax ID No. BE2480635349
+EORI No: BEUS783540
+SHIP FROM                                                                                IMPORTER OF RECORD
+Novatek US LLC                                                                                          Novatek      Saglk ve Cevre Bilim LTDSTI
+clo Fairmont Print                                                                                          PaR Bannnhd.2102
+Kadaka tee 711                                                                                             Gademtegdeg 14
+1830 MACHELEN                                                                                         34912 KAGITHANE ISTANBUL CITY
+BELGIUM                                                                                                     TURKEY
+Tax ID No. TR6917179205
+SHIPMENT INFORMATION                                                                  INVOICE INFORMATION
+Standard t0 TR                                                                                             Delivered at Place
+INVOICE NOTES
+HTS US     HTS SG     HTS EU                                                                                               Country of       aty
+Item                                                                      HTS Description            ECCN       Net Weight                                            Extended Total
+Code         Code         Code                                                                                                     Origin      Shipped
+3822190080 38229090    38221900    REA DIAG POLY CHAIN            EAR99             0,339 KG          IN                  2 PC                     21,22
+REACT.
+2    1822190080 [38229090    38221900    REA DIAG, POLY CHAIN           EAR99             0,060 KG         SE                                               87,19
+1 PC
+REACT ,
+3    13926904590 39269099    39269097    PLSTS GSKTS, WASHERS,      EAR99             0,015 KG         SG                                               91,40
+3 PC
+KTHE
+4    13926909989 139269099    39269097    pTHPLSTIC MAT,OTH;            EAR99             0,008 KG         US                                               11,67
+8 PC
+pTH,OTH
+5    /7017200000 170172000    70172000    KLASSWARE LABHYG.            EAR99             0,040 KG         US                                               10,83
+8 PC
+PHARMOTH
+6    13421990180 34219999   134219990    FILTIPURIF MACH PARTS,        EAR99             0,014 KG         US                                             762,94
+PC
+bTH,
+13437800010 34378059   134378000    FLOUR MILL AND GRAIN          EAR99             2,000 KG         EE                                          6.216,19
+2 EA
+MILL
+8    13479909596 34799090   134799070    pTH PRTSMMECH APPS,WI      EAR99             5,350 KG         DE                                             115,97
+1 EA
+IND F
+9    13479909596 34799090   134799070    PTH PRTSMMECH APPS,WI      EAR99             0,009 KG         US                                             261,28
+1 PC
+IND F
+10  1853921208035392190    135392198    [TUNGSTEN HALGN                  EAR99              36,600 G          DE                                             107,53
+2 PC
+LMP<=1OOV,OTHER
+11   13539490040                    135394900    [LTRAVIOLET LAMP                EAR99             0,005 KG         GB                    PC                   327,79
+7
+12   [3539490040 35394900    135394900    IULTRAVIOLET LAMP                EAR99           77,700 KG         DE                  1 PC                   264,89
+13  p9027304080 90273000    p0273000    ELNDLEEBBN                          3A999.0         161,000 KG         SG                                        20.850,22
+1 EA
+TERSIG
+14   19027304080 90273000    90273000    ELNDLEEBBN                           EAR99           22,000 KG         CN                                          4.359,50
+PC
+TERSIG
+CIc
+
+--- PAGE BREAK ---
+
+Page 2 0/ 2
+Invoice Number       554701215
+Invoice Date             01/06/2026
+Delivery Group        5191407
+Customs Consolidated Invoice
+HTS US     HTS SG     HTS EU                                                                                               Country of       aty
+Item                                                                      HTS Description            ECCN       Net Weight                                            Extended Total
+Code         Code         Code                                                                                                     Origin      Shipped
+15  19027905625 90279000    190279000    PRT ELEC                                EAR99             0,004 KG         DE                                             465.45
+2 PC
+INSTRUMENT,902720
+16  19027905625 50279000    190279000    PRT ELEC                                EAR99             0,018 KG         SG                                             434,37
+2 PC
+INSTRUMENT,902720
+17   19027905625 90279000    190279000    PRT ELEC                                EAR99             0,040 KG         US                                                9,84
+8 PC
+IINSTRUMENT,902720
+18  19027905630 90279000    190279000    PRT ELEC                                EAR99             0,010 KG         US                                             412,44
+2 EA
+INSTRUMENT,902730
+19  19027905695 90279000    [90279000    PT ELC INST ,                            EAR99             0,012 KG         CA                                             630,10
+8 EA
+bT,902720/30/5
+20  1902790569590279000    p90279000    PT ELC INST ,                            EAR99             0,462 KG         US                                          2.287,88
+6 EA
+bT,902720/30/5
+21   p9027905695190279000    [90279000    PT ELC INST ,                            EAR99             0,434 KG         US                                             456,24
+JT,902720/30/5                                                                                                  2 PC
+TOTAL:                               63         37.534,94 EUR
+CIC
+
+--- PAGE BREAK ---
+
+Page 1 of 1
+Invoice Number       554701215
+Invoice Date             01/06/2026
+Customer PO           5505419603/66691406
+Delivery Group        5191407
+Delivery                    830920460
+Sales Order              5229664
+Customs Detailed Invoice
+SELLER                                                                                    ULTIMATE CONSIGNEE
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+Redwater Mobility BV                                                                                    clo MeridiarEXRRESSGENEL MERKEZ NSN DEPO
+Avenida Central 455                                                                                      High Street 21        Ht9ine8u82t21
+1950 KRAAINEM                                                                                          34764 UMRANIYE
+BELGIUM                                                                                                     TURKEY
+Tax ID No. BE2480635349
+EORI No: BEUS783540
+SHIP FROM                                                                      BILL-TO  IMPORTER OF RECORD
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+clo Fairmont Print                                                                                          PaR annnldg2102
+Kadaka tee 711                                                                                             Gadeutegdeg 14
+1830 MACHELEN                                                                                         34912 KAGITHANE ISTANBUL CITY
+BELGIUM                                                                                                     TURKEY
+Tax ID No TR6917179205
+SHIPMENT INFORMATION                                                                  INVOICE INFORMATION
+Standard t0 TR                                                                                             Delivered at Place
+2083596115
+INVOICE NOTES
+Extended Value
+Item            Material                              Item Description                             ECCN       CoO           aty          Unit Price
+TRY
+PER21O1O8B  Ref. sample Glutomatic                                          EAR99           SE                                     1.872,11              1.872.11
+HTS US: 3822190080  REA DIAG,POLY CHAIN
+REACT,
+HTS EU: 38221900  Diagnostic or laboratory
+lreagents on a backing, prepared diagnostic or
+Ilaboratory reagents whether or not on a backing,
+whether or not put up in the form of kits; Other
+TOTAL:                                                    1.872,11 TRY
+No.of                                                               Gross Weight
+Net Weight        Ice Weight                                   UOM     Length           Width           Height      UoM     Volume     UOM
+Boxes
+0,060                    0.000                   0,260   KG              10,000            20,000            20.000   CM                0,001    M3
+CID
+
+--- PAGE BREAK ---
+
+Page 1 of 2
+Invoice Number       554701215
+Invoice Date             01/06/2026
+Customer PO           5505419505/5229132
+Delivery Group        5191407
+Delivery                    830920463
+Sales Order              5229596
+Customs Detailed Invoice
+SELLER                                                                                    ULTIMATE CONSIGNEE
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+Redwater Mobility BV                                                                                    clo MeridiarEXRRESSGENEL MERKEZ NSN DEPO
+Avenida Central 455                                                                                      High Street 21        Ht9ine8u82t21
+1950 KRAAINEM                                                                                          34764 UMRANIYE
+BELGIUM                                                                                                     TURKEY
+Tax ID No. BE2480635349
+EORI No: BEUS783540
+SHIP FROM                                                                      BILL-TO  IMPORTER OF RECORD
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+clo Fairmont Print                                                                                          PaR annnldg2102
+Kadaka tee 711                                                                                             Gadeutegdeg 14
+1830 MACHELEN                                                                                         34912 KAGITHANE ISTANBUL CITY
+BELGIUM                                                                                                     TURKEY
+Tax ID No TR6917179205
+SHIPMENT INFORMATION                                                                  INVOICE INFORMATION
+Standard t0 TR                                                                                             Delivered at Place
+2083596115
+INVOICE NOTES
+Extended Value
+Item            Material                              Item Description                             ECCN       Coo           aty          Unit Price
+TRY
+N6101276      Vial Diffuser Molding                                              EAR99           US              8                         61,92                 495,36
+HTS US: 9027905625  PRT ELEC
+INSTRUMENT,902720
+HTS EU: 90279000   Microtomes; parts and
+accessories
+2           [09923032       713 mm Black Plastic Screw Cap                             EAR99           US              8                         73,46                 587,68
+HTS US: 3926909989  OTH PLSTIC MAT,OTH,
+OTH,OTH
+HTS EU: 39269097  Other
+[09923031       4 mL Clr Scr Vial 15 x 45 13-425 PER PC:               EAR99           US              8                         68,14                 545,12
+HTS US: 7017200000  GLASSWARELAB,HYG,
+PHARM,OTH
+HTS EU: 70172000  Of other glass having a linear
+coefficient of expansion not exceeding 5 * 10-6 per
+Kelvin within a temperature range of 0 %C to 300 %
+TOTAL:       24                                        1.628,16 TRY
+CID
+
+--- PAGE BREAK ---
+
+No.of
+Net Weight        Ice Weight      Gross Weight  UOM      Length           Width           Height      UOM     Volume     UOM
+Boxes
+~0,030                    0,000                   0,170   KG              10,000            20,000            20.000   CM                0,008   M3
+CID
+
+--- PAGE BREAK ---
+
+Page 1 of 1
+Invoice Number       554701215
+Invoice Date             01/06/2026
+Customer PO           5505419825/5222652
+Delivery Group        5191407
+Delivery                    830920464
+Sales Order              5229801
+Customs Detailed Invoice
+SELLER                                                                                    ULTIMATE CONSIGNEE
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+Redwater Mobility BV                                                                                    clo MeridiarEXRRESSGENEL MERKEZ NSN DEPO
+Avenida Central 455                                                                                      High Street 21        Ht9ine8u82t21
+1950 KRAAINEM                                                                                          34764 UMRANIYE
+BELGIUM                                                                                                     TURKEY
+Tax ID No. BE2480635349
+EORI No: BEUS783540
+SHIP FROM                                                                      BILL-TO  IMPORTER OF RECORD
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+clo Fairmont Print                                                                                          PaR annnldg2102
+Kadaka tee 711                                                                                             Gadeutegdeg 14
+1830 MACHELEN                                                                                         34912 KAGITHANE ISTANBUL CITY
+BELGIUM                                                                                                     TURKEY
+Tax ID No TR6917179205
+SHIPMENT INFORMATION                                                                  INVOICE INFORMATION
+Standard t0 TR                                                                                             Delivered at Place
+2083596115
+INVOICE NOTES
+Extended Value
+Item            Material                              Item Description                             ECCN       Coo           aty          Unit Price
+TRY
+N8145368       PFA-ST Nebulizer for prepFAST                             EAR99           US              2                  46.183.48            92.366,96
+HTS US: 9027905695  PT ELC INST,
+OT,902720/30/5
+HTS EU: 90279000  Microtomes; parts and
+accessories
+TOTAL:        2                                       92.366,96 TRY
+No.of
+Net Weight        Ice Weight      Gross Weight  UOM     Length           Width           Height      UoM     Volume     UOM
+Boxes
+0,120                    0,000                   0,470   KG              11,000            29,000            23,000   CM                0,004   M3
+CID
+
+--- PAGE BREAK ---
+
+Page 1 of 2
+Invoice Number       554701215
+Invoice Date             01/06/2026
+Customer PO           5505419739/5229131
+Delivery Group        5191407
+Delivery                    830920466
+Sales Order              5229803
+Customs Detailed Invoice
+SELLER                                                                                    ULTIMATE CONSIGNEE
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+Redwater Mobility BV                                                                                    clo MeridiarEXRRESSGENEL MERKEZ NSN DEPO
+Avenida Central 455                                                                                      High Street 21        Ht9ine8u82t21
+1950 KRAAINEM                                                                                          34764 UMRANIYE
+BELGIUM                                                                                                     TURKEY
+Tax ID No. BE2480635349
+EORI No: BEUS783540
+SHIP FROM                                                                      BILL-TO  IMPORTER OF RECORD
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+clo Fairmont Print                                                                                          PaR annnldg2102
+Kadaka tee 711                                                                                             Gadeutegdeg 14
+1830 MACHELEN                                                                                         34912 KAGITHANE ISTANBUL CITY
+BELGIUM                                                                                                     TURKEY
+Tax ID No TR6917179205
+SHIPMENT INFORMATION                                                                  INVOICE INFORMATION
+Standard t0 TR                                                                                             Delivered at Place
+2083596115
+INVOICE NOTES
+Extended Value
+Item            Material                              Item Description                             ECCN       Coo           aty          Unit Price
+TRY
+W1026356      Nickel Skimmer Cone for NexION                            EAR99           CA                                     4.896,42            19.585,68
+HTS US: 9027905695  PT ELC INST,
+OT,902720/30/5
+HTS EU: 90279000  Microtomes; parts and
+accessories
+2           W1033995      HyperSkimmer Cone for NexION                             EAR99           CA                                     3.033,16            72.132,64
+HTS US: 9027905695  PT ELC INST ,
+OT,902720/30/5
+HTS EU: 90279000  Microtomes; parts and
+accessories
+W1033612      Nickel Sampler Cone for NexION                            EAR99           US                                     5.700,66            22.802,64
+HTS US: 9027905695  PT ELC INST,
+OT,902720/30/5
+HTS EU: 90279000  Microtomes; parts and
+accessories
+TOTAL:       12                                     54.520,96 TRY
+CID
+
+--- PAGE BREAK ---
+
+No.of
+Net Weight        Ice Weight      Gross Weight  UOM      Length           Width           Height      UOM     Volume     UOM
+Boxes
+0,620                    0,000                   0,970   KG              11,000            29,000            23,000   CM                0,003   M3
+CID
+
+--- PAGE BREAK ---
+
+Page 1 of 1
+Invoice Number       554701215
+Invoice Date             01/06/2026
+Customer PO           5505416600/66690602
+Delivery Group        5191407
+Delivery                    830920470
+Sales Order              5227704
+Customs Detailed Invoice
+SELLER                                                                                    ULTIMATE CONSIGNEE
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+Redwater Mobility BV                                                                                    clo MeridiarEXRRESSGENEL MERKEZ NSN DEPO
+Avenida Central 455                                                                                      High Street 21        Ht9ine8u82t21
+1950 KRAAINEM                                                                                          34764 UMRANIYE
+BELGIUM                                                                                                     TURKEY
+Tax ID No. BE2480635349
+EORI No: BEUS783540
+SHIP FROM                                                                      BILL-TO  IMPORTER OF RECORD
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+clo Fairmont Print                                                                                          PaR annnldg2102
+Kadaka tee 711                                                                                             Gadeutegdeg 14
+1830 MACHELEN                                                                                         34912 KAGITHANE ISTANBUL CITY
+BELGIUM                                                                                                     TURKEY
+Tax ID No TR6917179205
+SHIPMENT INFORMATION                                                                  INVOICE INFORMATION
+Standard t0 TR                                                                                             Delivered at Place
+2083596115
+INVOICE NOTES
+Extended Value
+Item            Material                              Item Description                             ECCN       Coo           aty          Unit Price
+TRY
+20626505505  OEM- Deuterium lamp                                            EAR99           GB                                   16.500.40            16.500.40
+HTS US: 8539490040  ULTRAVIOLET LAMP
+HTS EU: 85394900   Ultraviolet or infra-red lamps;
+arc lamps: Other
+TOTAL:                                                  16.500,40 TRY
+No.of
+Net Weight        Ice Weight      Gross Weight  UOM      Length           Width           Height      UOM     Volume     UOM
+Boxes
+-0,020                    0,000                   0,180   KG              10,000            20,000            20.000   CM                0.002   M3
+CID
+
+--- PAGE BREAK ---
+
+Page 1 of 1
+Invoice Number       554701215
+Invoice Date             01/06/2026
+Customer PO           5505419906/5229766
+Delivery Group        5191407
+Delivery                    830920465
+Sales Order              5229802
+Customs Detailed Invoice
+SELLER                                                                                    ULTIMATE CONSIGNEE
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+Redwater Mobility BV                                                                                    clo MeridiarEXRRESSGENEL MERKEZ NSN DEPO
+Avenida Central 455                                                                                      High Street 21        Ht9ine8u82t21
+1950 KRAAINEM                                                                                          34764 UMRANIYE
+BELGIUM                                                                                                     TURKEY
+Tax ID No. BE2480635349
+EORI No: BEUS783540
+SHIP FROM                                                                      BILL-TO  IMPORTER OF RECORD
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+clo Fairmont Print                                                                                          PaR annnldg2102
+Kadaka tee 711                                                                                             Gadeutegdeg 14
+1830 MACHELEN                                                                                         34912 KAGITHANE ISTANBUL CITY
+BELGIUM                                                                                                     TURKEY
+Tax ID No TR6917179205
+SHIPMENT INFORMATION                                                                  INVOICE INFORMATION
+Standard t0 TR                                                                                             Delivered at Place
+2083596115
+INVOICE NOTES
+Extended Value
+Item            Material                              Item Description                             ECCN       CoO           aty          Unit Price
+TRY
+107150014       MPLC Concept Holder, 10 cm                                 EAR99           US                                     8.202,201              8.202,20
+HTS US: 8421990180  FILTIPURIF MACH
+PARTS,OTH;
+HTS EU: 84219990  Other
+TOTAL:                                                    8.202,20 TRY
+No.of
+Net Weight        Ice Weight      Gross Weight  UOM     Length           Width           Height      UOM     Volume     UOM
+Boxes
+0,014                    0,000                    0,214    KG              10,000            20,000            20.000   CM                0.001    M3
+CID
+
+--- PAGE BREAK ---
+
+Page 1 of 2
+Invoice Number       554701215
+Invoice Date             01/06/2026
+Customer PO           5505419741/5229612
+Delivery Group        5191407
+Delivery                    830920468
+Sales Order              5229805
+Customs Detailed Invoice
+SELLER                                                                                    ULTIMATE CONSIGNEE
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+Redwater Mobility BV                                                                                    clo MeridiarEXRRESSGENEL MERKEZ NSN DEPO
+Avenida Central 455                                                                                      High Street 21        Ht9ine8u82t21
+1950 KRAAINEM                                                                                          34764 UMRANIYE
+BELGIUM                                                                                                     TURKEY
+Tax ID No. BE2480635349
+EORI No: BEUS783540
+SHIP FROM                                                                      BILL-TO  IMPORTER OF RECORD
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+clo Fairmont Print                                                                                          PaR annnldg2102
+Kadaka tee 711                                                                                             Gadeutegdeg 14
+1830 MACHELEN                                                                                         34912 KAGITHANE ISTANBUL CITY
+BELGIUM                                                                                                     TURKEY
+Tax ID No TR6917179205
+SHIPMENT INFORMATION                                                                  INVOICE INFORMATION
+Standard t0 TR                                                                                             Delivered at Place
+2083596115
+INVOICE NOTES
+Extended Value
+Item            Material                              Item Description                             ECCN       CoO           aty          Unit Price
+TRY
+N9303806       Titanium 1,000 ug/mL HZOfTr HF ICP 125mL          EAR99           IN                                         360,80                 360.80
+HTS US: 3822190080  REA DIAG,POLY CHAIN
+REACT ,
+HTS EU: 38221900  Diagnostic or laboratory
+lreagents on a backing, prepared diagnostic or
+Ilaboratory reagents whether or not on a backing,
+whether or not put up in the form of kits; Other
+N0790249       Hybrid XLT 3-Slot Organics Torch Avio                    EAR99           US              2                  710.380,94            20.761,88
+HTS US: 9027905630  PRT ELEC
+INSTRUMENT,902730
+HTS EU: 90279000  Microtomes; parts and
+accessories
+N0777049       PFA-ST MicroFiow Nebullzer for Optima                  EAR99           US                                    713.152,75            73.152.75
+HTS US: 8479909596  OTH PRTSIMECH APPS,
+WIIND F
+HTS EU: 84799070  Other; Other
+CID
+
+--- PAGE BREAK ---
+
+Page 2 of 2
+Invoice Number       554701215
+Invoice Date             01/06/2026
+Customer PO           5505419741/5229612
+Delivery Group         5191407
+Delivery                    830920468
+Sales Order              5229805
+Customs Detailed Invoice
+aty                                  Extended Value
+Item            Material                              Item Description                             ECCN       Coo                             Unit Price
+TRY
+N9303788       STD PHOSPHORUS 1000 HGMML 125ML             EAR99           IN                                         707,46                 707,46
+HTS US: 3822190080  READIAG,POLY CHAIN
+REACT,
+HTS EU: 38221900  Diagnostic or laboratory
+(reagents on a backing; prepared diagnostic or
+llaboratory reagents whether or not on a backing,
+whether or not put up in the form of kits; Other
+TOTAL:        5                                       34.982,89 TRY
+No.of
+Net Weight        Ice Weight      Gross Weight  UOM     Length           Width           Height      UoM     Volume     UOM
+Boxes
+0.480                   0.000                   0,830   KG              11,000            29,000            23.000   CM                0,004   M3
+CID
+
+--- PAGE BREAK ---
+
+Page 1 of 1
+Invoice Number       554701215
+Invoice Date             01/06/2026
+Customer PO           5505418938/66691189
+Delivery Group        5191407
+Delivery                    830920471
+Sales Order              5229134
+Customs Detailed Invoice
+SELLER                                                                                    ULTIMATE CONSIGNEE
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+Redwater Mobility BV                                                                                    clo MeridiarEXRRESSGENEL MERKEZ NSN DEPO
+Avenida Central 455                                                                                      High Street 21        Ht9ine8u82t21
+1950 KRAAINEM                                                                                          34764 UMRANIYE
+BELGIUM                                                                                                     TURKEY
+Tax ID No. BE2480635349
+EORI No: BEUS783540
+SHIP FROM                                                                      BILL-TO  IMPORTER OF RECORD
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+clo Fairmont Print                                                                                          PaR annnldg2102
+Kadaka tee 711                                                                                             Gadeutegdeg 14
+1830 MACHELEN                                                                                         34912 KAGITHANE ISTANBUL CITY
+BELGIUM                                                                                                     TURKEY
+Tax ID No TR6917179205
+SHIPMENT INFORMATION                                                                  INVOICE INFORMATION
+Standard t0 TR                                                                                             Delivered at Place
+2083596115
+INVOICE NOTES
+Extended Value
+Item            Material                              Item Description                             ECCN       Coo           aty           Unit Price
+TRY
+N6480697      KIT SQ8 HEADAMP                                             EAR99           US              2                  11.483,22            22.966,44
+HTS US: 9027905695  PT ELC INST,
+OT,902720/30/5
+HTS EU: 90279000  Microtomes; parts and
+accessories
+TOTAL:        2                                       22.966,44 TRY
+No.of
+Net Weight        Ice Weight      Gross Weight  UOM     Length           Width           Height      UoM     Volume     UOM
+Boxes
+0,600                    0,000                   0,800   KG              10,000            20,000            20,000   CM                0,001    M3
+CID
+
+--- PAGE BREAK ---
+
+Page 1 of 1
+Invoice Number       554701215
+Invoice Date             01/06/2026
+Customer PO           5505420114/66691592
+Delivery Group        5191407
+Delivery                    830920472
+Sales Order              5229907
+Customs Detailed Invoice
+SELLER                                                                                    ULTIMATE CONSIGNEE
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+Redwater Mobility BV                                                                                    clo MeridiarEXRRESSGENEL MERKEZ NSN DEPO
+Avenida Central 455                                                                                      High Street 21        Ht9ine8u82t21
+1950 KRAAINEM                                                                                          34764 UMRANIYE
+BELGIUM                                                                                                     TURKEY
+Tax ID No. BE2480635349
+EORI No: BEUS783540
+SHIP FROM                                                                      BILL-TO  IMPORTER OF RECORD
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+clo Fairmont Print                                                                                          PaR annnldg2102
+Kadaka tee 711                                                                                             Gadeutegdeg 14
+1830 MACHELEN                                                                                         34912 KAGITHANE ISTANBUL CITY
+BELGIUM                                                                                                     TURKEY
+Tax ID No TR6917179205
+SHIPMENT INFORMATION                                                                  INVOICE INFORMATION
+Standard t0 TR                                                                                             Delivered at Place
+2083596115
+INVOICE NOTES
+Extended Value
+Item            Material                              Item Description                             ECCN       Coo           aty          Unit Price
+TRY
+B0500833       GASKET                                                                EAR99           SG               3                     1.533,74              4.601,22
+HTS US: 3926904590  PLSTS GSKTS,
+WASHERS, OTHE
+HTS EU: 39269097  Other
+2           B4000011       HS-40 SS Needle                                                   EAR99           DE              2                  11.715,24            23.430,48
+HTS US: 9027905625  PRT ELEC
+INSTRUMENT,902720
+HTS EU: 90279000   Microtomes; parts and
+accessories
+TOTAL:        5                                       28.031,70 TRY
+No.of
+Net Weight        Ice Weight      Gross Weight  UOM      Length           Width           Height      UoM     Volume     UOM
+Boxes
+-0,040                    0.000                   0,160   KG              10.000            20,000            20,000   CM                0,006   M3
+CID
+
+--- PAGE BREAK ---
+
+Page 1 of 1
+Invoice Number       554701215
+Invoice Date             01/06/2026
+Customer PO           5505420246/66691631
+Delivery Group        5191407
+Delivery                    830920473
+Sales Order              5230031
+Customs Detailed Invoice
+SELLER                                                                                    ULTIMATE CONSIGNEE
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+Redwater Mobility BV                                                                                    clo MeridiarEXRRESSGENEL MERKEZ NSN DEPO
+Avenida Central 455                                                                                      High Street 21        Ht9ine8u82t21
+1950 KRAAINEM                                                                                          34764 UMRANIYE
+BELGIUM                                                                                                     TURKEY
+Tax ID No. BE2480635349
+EORI No: BEUS783540
+SHIP FROM                                                                      BILL-TO  IMPORTER OF RECORD
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+clo Fairmont Print                                                                                          PaR annnldg2102
+Kadaka tee 711                                                                                             Gadeutegdeg 14
+1830 MACHELEN                                                                                         34912 KAGITHANE ISTANBUL CITY
+BELGIUM                                                                                                     TURKEY
+Tax ID No TR6917179205
+SHIPMENT INFORMATION                                                                  INVOICE INFORMATION
+Standard t0 TR                                                                                             Delivered at Place
+2083596115
+INVOICE NOTES
+Extended Value
+Item            Material                              Item Description                             ECCN       Coo           aty           Unit Price
+TRY
+N6100331       BRAZE ASSY ASXL CHARCOAL TRAP                 EAR99           SG              2                  10.932,91            21.865,82
+HTS US: 9027905625  PRT ELEC
+INSTRUMENT,902720
+HTS EU: 90279000  Microtomes; parts and
+accessories
+TOTAL:        2                                       21.865,82 TRY
+No.of
+Net Weight        Ice Weight      Gross Weight  UOM     Length           Width           Height      UoM     Volume     UOM
+Boxes
+0,060                    0,000                   0,260   KG              10,000            20,000            20,000   CM                0,004   M3
+CID
+
+--- PAGE BREAK ---
+
+Page 1 of 1
+Invoice Number       554701215
+Invoice Date             01/06/2026
+Customer PO           5505417511/5228031
+Delivery Group        5191407
+Delivery                    830920461
+Sales Order              5228208
+Customs Detailed Invoice
+SELLER                                                                                    ULTIMATE CONSIGNEE
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+Redwater Mobility BV                                                                                    clo MeridiarEXRRESSGENEL MERKEZ NSN DEPO
+Avenida Central 455                                                                                      High Street 21        Ht9ine8u82t21
+1950 KRAAINEM                                                                                          34764 UMRANIYE
+BELGIUM                                                                                                     TURKEY
+Tax ID No. BE2480635349
+EORI No: BEUS783540
+SHIP FROM                                                                      BILL-TO  IMPORTER OF RECORD
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+clo Fairmont Print                                                                                          PaR annnldg2102
+Kadaka tee 711                                                                                             Gadeutegdeg 14
+1830 MACHELEN                                                                                         34912 KAGITHANE ISTANBUL CITY
+BELGIUM                                                                                                     TURKEY
+Tax ID No TR6917179205
+SHIPMENT INFORMATION                                                                  INVOICE INFORMATION
+Standard t0 TR                                                                                             Delivered at Place
+2083596115
+INVOICE NOTES
+Extended Value
+Item            Material                              Item Description                             ECCN       Coo           aty          Unit Price
+TRY
+N0790016       Avio 220 Max Base Instrument                               34999.f          SG                               1.049.579,86       1.049.579,86
+HTS US: 9027304080  ELNDLEEBBN
+SPECTROMETERSIG
+HTS EU: 90273000  Spectrometers ,
+spectrophotometers and spectrographs using
+optical radiation (UV , visible, IR)
+TOTAL:                                                      1.049.579,86
+TRY
+No.of
+Net Weight        Ice Weight      Gross Weight  UOM      Length           Width           Height      UOM     Volume     UOM
+Boxes
+129,000                    0,000                150,000   KG            130,000          106,000          100.000   CM                0,000
+CID
+
+--- PAGE BREAK ---
+
+Page 1 of 1
+Invoice Number       554701215
+Invoice Date             01/06/2026
+Customer PO           5505419356/5229129
+Delivery Group        5191407
+Delivery                    830920462
+Sales Order              5229520
+Customs Detailed Invoice
+SELLER                                                                                    ULTIMATE CONSIGNEE
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+Redwater Mobility BV                                                                                    clo MeridiarEXRRESSGENEL MERKEZ NSN DEPO
+Avenida Central 455                                                                                      High Street 21        Ht9ine8u82t21
+1950 KRAAINEM                                                                                          34764 UMRANIYE
+BELGIUM                                                                                                     TURKEY
+Tax ID No. BE2480635349
+EORI No: BEUS783540
+SHIP FROM                                                                      BILL-TO  IMPORTER OF RECORD
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+clo Fairmont Print                                                                                          PaR annnldg2102
+Kadaka tee 711                                                                                             Gadeutegdeg 14
+1830 MACHELEN                                                                                         34912 KAGITHANE ISTANBUL CITY
+BELGIUM                                                                                                     TURKEY
+Tax ID No TR6917179205
+SHIPMENT INFORMATION                                                                  INVOICE INFORMATION
+Standard t0 TR                                                                                             Delivered at Place
+2083596115
+INVOICE NOTES
+Extended Value
+Item            Material                              Item Description                             ECCN       CoO           aty          Unit Price
+TRY
+[6001609         IOOOuL wide bore tips , QTY 2304                           EAR99           DE                                     5.838,051              5.838,05
+HTS US: 8479909596  OTH PRTSIMECH APPS,
+WIIND F
+HTS EU: 84799070  Other; Other
+TOTAL:                                                    5.838,05 TRY
+No.of
+Net Weight        Ice Weight      Gross Weight  UOM     Length           Width           Height      UOM     Volume     UOM
+Boxes
+5,270                    0,000                    5,270   KG              40,000            32,000            41,000   CM                0.007   M3
+CID
+
+--- PAGE BREAK ---
+
+Page 1 of 1
+Invoice Number       554701215
+Invoice Date             01/06/2026
+Customer PO           5505419742/5229609
+Delivery Group        5191407
+Delivery                    830920467
+Sales Order              5229804
+Customs Detailed Invoice
+SELLER                                                                                    ULTIMATE CONSIGNEE
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+Redwater Mobility BV                                                                                    clo MeridiarEXRRESSGENEL MERKEZ NSN DEPO
+Avenida Central 455                                                                                      High Street 21        Ht9ine8u82t21
+1950 KRAAINEM                                                                                          34764 UMRANIYE
+BELGIUM                                                                                                     TURKEY
+Tax ID No. BE2480635349
+EORI No: BEUS783540
+SHIP FROM                                                                      BILL-TO  IMPORTER OF RECORD
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+clo Fairmont Print                                                                                          PaR annnldg2102
+Kadaka tee 711                                                                                             Gadeutegdeg 14
+1830 MACHELEN                                                                                         34912 KAGITHANE ISTANBUL CITY
+BELGIUM                                                                                                     TURKEY
+Tax ID No TR6917179205
+SHIPMENT INFORMATION                                                                  INVOICE INFORMATION
+Standard t0 TR                                                                                             Delivered at Place
+2083596115
+INVOICE NOTES
+Extended Value
+Item            Material                              Item Description                             ECCN       CoO           aty          Unit Price
+TRY
+L6022728       ELP UV Lamp Complete                                         EAR99           DE                                    13.334,17            13.334,17
+HTS US: 8539490040  ULTRAVIOLET LAMP
+HTS EU: 85394900   Ultraviolet or infra-red lamps;
+arc lamps: Other
+2           B0114620      Tungsten Halogen Lamp Assembly                         EAR99           DE              2                    2.706,40              5.412,80
+HTS US: 8539212080  TUNGSTEN HALGN
+LMP<=1OOV.OTHER
+HTS EU: 85392198  Other; for a voltage; Not
+exceeding 100 V
+TOTAL:        3                                       18.746,97 TRY
+No.of
+Net Weight        Ice Weight      Gross Weight  UOM      Length           Width           Height      UoM     Volume     UOM
+Boxes
+0,140                    0.000                   0,490   KG              11,000            29,000            23.000   CM                0,003   M3
+CID
+
+--- PAGE BREAK ---
+
+Page 1 of 2
+Invoice Number       554701215
+Invoice Date             01/06/2026
+Customer PO           5505420084
+Delivery Group        5191407
+Delivery                    830920469
+Sales Order              5229908
+Customs Detailed Invoice
+SELLER                                                                                    ULTIMATE CONSIGNEE
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+Redwater Mobility BV                                                                                    clo MeridiarEXRRESSGENEL MERKEZ NSN DEPO
+Avenida Central 455                                                                                      High Street 21        Ht9ine8u82t21
+1950 KRAAINEM                                                                                          34764 UMRANIYE
+BELGIUM                                                                                                     TURKEY
+Tax ID No. BE2480635349
+EORI No: BEUS783540
+SHIP FROM                                                                      BILL-TO  IMPORTER OF RECORD
+Novatek US: LLC                                                                                          Novatek      Saglik ve Cevre Bilim LTDSTI
+clo Fairmont Print                                                                                          PaR annnldg2102
+Kadaka tee 711                                                                                             Gadeutegdeg 14
+1830 MACHELEN                                                                                         34912 KAGITHANE ISTANBUL CITY
+BELGIUM                                                                                                     TURKEY
+Tax ID No TR6917179205
+SHIPMENT INFORMATION                                                                  INVOICE INFORMATION
+Standard t0 TR                                                                                             Delivered at Place
+2083596115
+INVOICE NOTES
+Extended Value
+Item            Material                              Item Description                             ECCN       Coo           aty          Unit Price
+TRY
+PERO22020    GLUTOMATIC 2000 100-240V 50-60Hz                  EAR99           EE                                  239.833,401          239.833,40
+HTS US: 8437800010  FLOUR MILL AND GRAIN
+MILL
+HTS EU: 84378000  Other machinery
+2           PERO20120    CENTRIFUG 2010 100-240V 50-60HZ                    EAR99           EE                                    73.083,50            73.083,50
+HTS US: 8437800010  FLOUR MILL AND GRAIN
+MILL
+HTS EU: 84378000  Other machinery
+F3o0ooo1       LactoScope 300                                                     EAR99           CN                                 219.453,16          219.453.16
+HTS US: 9027304080  ELNDLEEBBN
+SPECTROMETERSIG
+HTS EU: 90273000  Spectrometers ,
+spectrophotometers and spectrographs using
+optical radiation (UV , visible, IR)
+TOTAL:        3                                     532.370,06 TRY
+CID
+
+--- PAGE BREAK ---
+
+No.of
+Net Weight        Ice Weight      Gross Weight  UOM      Length           Width           Height      UOM     Volume     UOM
+Boxes
+72,000                    0,000                 93,000   KG            120,000            80,000            90,000   CM                0,139   M3
+CID

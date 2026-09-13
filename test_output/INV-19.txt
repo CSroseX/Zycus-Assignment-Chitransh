@@ -1,0 +1,32 @@
+VENDOR DETAILS
+TIN: C9765403675
+Name: Redwater Technologies
+Bank Name: Stadibank
+Branch: Lindenstrasse 111
+Account No. 1028243888660
+PREPARED FOR:                                                                                                                     SORT code: 240124
+SWIFT code: GMOEYYPUFGV
+Northwind HOLDINGS OU
+High Street 10
+PO
+ITEM                                                                                        QTY                   PRICE                        TOTAL
+Meal per head                                                                            60                 GHC 90.00               GHC 5400.00
+Transportation and Set up                                                          1                GHC 1,200.00            GHC 1,200.00
+Tax Exclusive Value                                                                                                              GHC6,600.00
+NHIL (2.5%)                                                                                         GHC 165.00
+(iii)      GETFund Levy (2.5%)                                                                         GHC 165.00
+(iv)      COVID-19 Levy (1%)                                                                             GHC 66.00
+Total Levy Inclusive Value (i+ii+iiitiv)                                                                                 GHC 6,996.00
+(vi)     VAT (15%)                                                                                                                              GHC 1049.40
+(vii)    Total Tax Inclusive Value (v+vi)                                                                                      GHC 8,045.40
+Account No: 1028243888660
+SORT code: 240124 SWIFT
+code: GMOEYYPUFGV
+
+--- PAGE BREAK ---
+
+Manager Name  Alex        MeyeMoreau
+>
+Abutiate
+lsl
+Signature

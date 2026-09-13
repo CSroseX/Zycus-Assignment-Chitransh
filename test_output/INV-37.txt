@@ -1,0 +1,29 @@
+1120 VERMONT UTILITIES AVENUE REIMBURSEMENT ASSOCIATES, LLP
+Amerihealth - 2nd Floor
+Attention: Billing Address:  Accountspayable@amerihealthcaritas.com AmeriHealth                          Invoice Invoice: Date: 6/12/2018 5568
+200 Philadelphia, Stevens Drive PA 19113                      Purchase Order: 17816
+Service Period:  April 30, 2018 to May 29, 2018 (30 Days)
+ELECTRIC USAGE       Meter Reading
+1 SM Meter #0201 Number  Read Actual Type  497649 Present - 497625 Previous = 24 x Multiplier 1 = KWH 24 Used x 0.097958122 Blended $/KWH = Amount $2.35
+3 at SM 2nd fl #0202 North Mech Room Actual  434313 - 434122 Demand = 191 1 x x 1 1 = = 191 1 x x 0.097958122 11.470001 = = $18.71 $11.47
+4 at SM 2nd fl #0206 North Mech Room Actual  703329 - 687513 Demand = 15816 0.7 x x 1 1 = = 15816 0.7 x x 0.097958122 11.470001 = = $1,549.31 $8.03
+at                 Demand 21.5 Total x KWH 1 Billed: = 16,031 21.5 x Non-Residential-GT: 11.470001 = $1,570.37 $246.61
+Total Distribution Charged: 23.200 Maximum Demand: $266.10
+SUB-TOTAL FOR Sales ELECTRICAL tax at 0.0575 on utility COSTS: bills: $1,942.07 $105.60
+EMERGENCY GENERATOR FUEL USAGE Meter Reading
+1 #4369148 Meter Number        Present 815 - Previous 815 = Gallons 0 x Multiplier 1 = Consumption 0 x $2.76 Rate = Amount $0.00
+SUB-TOTAL FOR EMERGENCY GENERATOR Sales tax at 0.0575 FUEL on utility COSTS: bills: $0.00 $0.00
+COOLING SYSTEM CONDENSER WATER USAGE               Per lease annual fee of
+1 Unit 2.1 Number  Model CCH-042 Number  Install 07/23/03 Date Usage Standby Type Unit 42,000 BTU's / BTU 12,000 Tonnage = Connected 3.500 Ton x CSCW / 12 $63.93 x connected months* ton = Amount $61.73
+2 4  2.5 2.9   WCMS.1.024 CCH-024  07/23/03 01/01/14  24 24 Hour Hour  24,000 60,000 / / 12,000 12,000 = = 2.000 5.000 x x $63.93 $63.93 = = $319.65 $35.27
+*24 Hour unit utility costs: $740.71, Lease Hour unit utility costs: $194.7, $26.49 for maintenance and repairs to the 24-hour central plant system; per connected ton
+Cost Per Ton, Total Common Connected Equipment Tonnage: PM: 10.500 2.208 Total Total C.E. Energy PM Costs: Costs: $393.47 $23.18
+SUB-TOTAL FOR CONDENSER WATER COSTS: $416.65
+BUILDING (4-12000.00 SERVICE ::: 152.19375) FEES                            .. $122.00
+(')                          Sales tax at 0.0575 on building services: $7.02
+NET CURRENT REIMBURSEMENT: $2,487.73
+40000 Usage History
+20000 13662 11785 13965 15972 14742 14508 14037 19943 5682 20619 8295 11964 16031
+0 May June July August Septemb  October Novemb Decembe  January February March April May
+er    er r
+page 4-02 Amerihealth 1 of 1 Utility Reimbursement.xls

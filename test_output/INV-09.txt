@@ -1,0 +1,77 @@
+ARVE
+Kuupaev Date           Kliendi nr; Client No.       Arve nr; Invoice No.
+2025 / 06 / 06                                         11768395
+EMK 2492 177233378               EESI66 EDETEAEEBEES
+Arve maksja Payer of invoice                                                                 Reg: nr; VAT reg: no.
+Northwind Operations OU                                                                    EE398766194
+Maksetahtaeg Due Dale
+Lindenstrasse 15
+2025 / 06 / 27
+EE-10134 TALLINN
+Viide maksmisel Payment reference
+210020201117683950
+maria tamm@northwind.eu
+Meie viide Our ref_                                                                Veovahend Vehicle                                 Saatmise kuupaev Departure date
+TLLFW19939   ITLL9386486                                                                                                         2025 / 06 / 06
+Saalja viide Shipper Reference                                               Tarneklausel Terms of delivery                  Saabumise kuupaev Arrival date
+PTGGM351961374                                                             001 Ismir                                          2025 / 06 / 06
+Vastuvoija Consignee
+Northwi@PERATIONS
+Frielas business park; PT-2660 Frielas
+Kood Code  Tekst Noles                                                                                                                     KM VAT %        Neto summa Net amount
+752          Import duties                                                                                                                          0                         31889.09
+751          Customs VAT                                                                                                                          0                           5878.23
+Valuuta Currency                               Kokku Total
+EUR                              37767.32
+0
+8                          Arve tahtajaks mittetasumisel on Cloverdale Tradil oigus nouda vilvist 0,1% tasumata summast iga maksetahtpaeva iletanud paeva eest: Lisandub
+viivisarve valjastamise tasu 40 eurot
+8
+Cloverdale Tradihas the right to charge interest on arrears 0.1% of the unpaid amount for each day the invoice is overdue. Service fee of 40 EUR applies
+for every interest invoicing:
+Neto summa Net amount                 KM alus VAT CA       Kaibemaks VAT amount          Valuuta Currency                             Kokku Total
+37767.32                                0.00                                0.00                          EUR                              37767.32
+Cloverdale Trading
+10112, Gartenweg 13                     Harju county ESTONIA tel:
+Ariregistri nr , Trade reg: No. 15116864
+KM reg: nr: VAT reg: No:: EE418070965
+E-mail, E-post: luis roth@ashford-distribution com
+Pangad , Banks:
+Oakhaven Banc516678092588562155     BIC; SZWGVJOV
+Redwater Bai319931502108360825     BIC: USONDCZG
+
+--- PAGE BREAK ---
+
+Blackpine Services S.A                                                                                                                  NRL : 3217p76557408317495996
+ESTANCIA ADUANEIRA PT423029           Tipo Declaracao  EU A     N" Ad:             Total VIs 156                      Processo No 1693 de 05/05/2025
+N" Aceitacao  9752PT76913459517321         de 05/05/2025                             No Provisorio  356960/2025                    Conta Ne:
+Expedidor : Oakhaven Technologies LTD                                                                           Pais  TR
+Destinatario  Northwind OPERATIONS PT                   NIF 198709709
+Inc:: EXW      NT:: 11              Montante Casa 22 489.840,000 CNY               Tx Cambio: 8,319900      Frete 6.875,000                      Seguro 0,000
+Peso Bruto  4.882,800                 Peso Liquido 3.884,400                        Valor Aduaneiro Total 65.750,710           CM : 002615000000
+Localizacao (C30) DTP98621713004PT        MT18: 30 / 76GPC174                     MT21: 30 / BE
+Nr.           Codigo das Mercadorias           Pref       AIVA     U,Supl_  P,0      P Liquido             P Bruto           Valor Adicao      Ajustamento
+87120030 90 B999                     400                            156 TR            3.884.400            4.882,800         489.840.000          6.875,000
+o1       BOo               97.970,550                         6                   5878,23      0005565 2025 3
+A30               65.750,710                      48,5               31889,09     0005565 2025 3
+C31       BI                       156
+C44    N934    SIN                                                                                                65.750,710   05-05-2025
+PROC
+N380   TRV-Northwind-7582                                                                                                    25-04-2025
+9207    6104/0                                                                                                                 05-05-2025
+N821    57TR904846535316MG                                                                                                  25-04-2025
+VDA                                                                                                                330,750
+3E30    SN                                                                                                                        05-05-2025
+3225    S/N                                                                                                                      05-05-2025
+3Y76    S/N                                                                                                                      05-05-2025
+3H27    SN                                                                                                                        05-05-2025
+3y01    S/N                                                                                                                       05-05-2025
+Y16o    S/N                                                                                                                      05-05-2025
+N720   lSTKE E.25.03407                                                                                             25-04-2025
+9213    CERT ORIGEM TR D 1052123                                                                          25-04-2025
+N018   H 1587923                                                                                                           25-04-2023
+Total Liquidacao               521       IVA 6 %                                                                                                                                             5.878,23
+801        DIREITOS ADUANEIROS CEE                                                                                                                0,00
+803        DIREITOS AntI-DumPiNG                                                                                                            31.889,09
+Trinta 8 sete mil selecentos 0 sessenta 8 sete euros e trinta e dois centimos                                                                                        37.767,32
+GIDWIN Desenvolvido por Meridian Distribution Ldbicenciado a: Nordis        Transitarios , SA

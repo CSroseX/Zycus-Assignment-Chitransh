@@ -1,0 +1,24 @@
+Page 1 of 1
+Oracle 500 Oracle America, Parkway Inc.                         INVOICE
+Redwood Shores, CA 94065                   Federal Tax 44273107 ID: 94-2805249
+United States                   INVOICE INVOICE NUMBER DATE     18-Jun-2018
+YOUR P.O. NUMBER  1000021496 30 NET
+PAYMENT DUE DATE TERMS   18-Jul-2018
+CUSTOMER REF
+BILL AmeriHealth TO : Caritas Services             REFERENCE PAYMENT 44273107 INSTRUCTIONS: ON YOUR REMITTANCE
+Attention: 200 Stevens Accounts Drive Payable              MAIL CHECKS TO:   Oracle America, Inc.
+Philadelphia, United States PA 19113                          P.O. Dallas Box TX 203448 75320-3448
+WIRE TRANSFERS TO: WELLS ABA 121000248 FARGO BANK
+ACCT 4522-020841
+SHIP Amerihealth TO : Caritas Health Plan          Regular Invoice
+200 Amhss Stevens 1000- Dr Corp Shared Services
+Philadelphia, United States PA 19113
+FOR BILLING QUESTIONS, OKS_CONTRACTS001Oracle CALL: (888) America, 803-7414 Inc.P.O. OR EMAIL: Box 203448DallasTX75320-3448 COLLECTIONS_US@ORACLE.COM
+ORACLE SALESPERSON   ORACLE NUMBER ORDER    CUSTOMER CONTACT         END USER
+Settelmeyer, Jacob     14724557    Attention: Accounts Payable   Amerihealth Caritas Health Plan
+ITEM NO.             DESCRIPTION             NO. OF QTY/ USERS TAX  EXTENDED AMOUNT
+1  Managed Managed Cloud Cloud Services Services - - Computer Additional and Services Administration 18-JUL-2018 Services : -       11    N    91,580.50
+17-OCT-2018
+NOT SPECIAL OFD N  INSTRUCTIONS:                SUBTOTAL        TAX      TOTAL(USD)
+Less Payments 91,580.50        0.00        91,580.50 0.00
+Credits/Adjustments Outstanding Balance as of 27-Jun-2018        91,580.50 0.00

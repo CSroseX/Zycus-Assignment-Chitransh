@@ -1,0 +1,46 @@
+Northwind Operations OU                                                                                                                        Arve number:         TLLIR72836045
+VANA-LOUNA TN 15                                                                                                                  Kliendikood:                   952774062
+10134 TALLINN                                                                                                                             Reg: number:                    27044945
+ESTONIA                                                                                                                                         Arve kuupaev:                   09-06-25
+Lehekulgede arv:                       1/2
+Paringud arvete kohta
+Telefon:                   +372 6 808 455
+E-post:                     luis roth@speedwell com
+Teenuse liik                                                    Saadetiste Kogukaal     Osade Transpordi-    Lisatasud                                   KM   Kogusum-
+arv                            arv            tasu         kokku                                          ma (KM-ga)
+ECONOMY SELECT                                                                      1,00                           18,87            2,83                                 4,77          26,47
+Kokku                                                                                         1,00                           18,87            2,83                                 4,77          26,47
+Lisateenuste loetelu                                                                    Kokku
+FUEL SURCHARGE                                                                           2,83
+Kokku lisateenuste tasud                                                                2,83
+KM analius                                                                                                                                                                                                  Kokku
+Kood               Koodi kirjeldus                                                                                                          KM maar Maksustatav summa             KM
+A                                                                                                                                                           22,00%                        21,70            4,77
+Kokku KM                                                                                                                                                                                                        4,77
+Kokku (va: KM)                           KM      Kokku (KM-ga)
+Maksetahtaeg: 07-07-25                                   Kogusumma (EUR)                       21,70                         4,77                       26,47
+Speedwell Express Estonla AS   +372 680 8555 (klienditeenindus)          Reg: No:: 10451175                             Palume: markida oma maksekorraldusele makstava
+Bahnholstrasse 32                +372 680 8455 (raamatupidamine)        KMKR EE445462205                              arve number ja kuupaev
+11415 Tallinn                   e-mail alex keller@speedwell com               IBAN EE989745485604538087 Rank               markida saatelehele saatja nimi
+ESTONIA                          WawW speedwell ee                                  EE98974t35n0 8538087 Rank
+EE445376549651250068
+
+--- PAGE BREAK ---
+
+Arve number:               TLLiR72836045                                                                                         Arve
+Kliendikood:                       952774062
+Arve kuupaev:                        09-06-25
+Lehekilgede arv:                          2/2
+Saatelehe Saatja viide        Saadetise Lahtekoht saatja                                      Sihtkoht / saaja                                           Teenuse      Kaal   Osade Standard:-                        Lisateenuste       Lisatee-     KM kood Kogusum-
+number                             kuupaev                                                                                                                                  liik             (Kg)       arv      hind                             kirjeldus          nuste                              ma
+tasud                       (KM-ga)
+6757799188 STK-EE003-25-00250 04-06-25   MHN; MANNHEIM                                         WAW WARSAW                                            ECONOMY      1,00 V                 18,87                                                                         4,15 A        23,02
+NORTOREAATIONS QUE MANNHEIM                    Northwind OPERATIONS OU CWH                        SELECT                                                                   FUEL SURCHARGE         2,83           0,62 A         3,45
+Maria Haas                                               Jonas   Weber
+Garlenweg 6                                                Lindenstrasse 20
+LOCATION IS ON THE BASEMENT OF BUIL              PL-01-940, Warsaw
+DE-68165, MANNHEIM
+26,47
+Vahesumma teenuse jargi ECONOMY SELECT                                                                                                                                                     1,00                    18,87                                                       2,83              4,77        26,47
+Kokku: EUR:        1,00                    8,87                                                       2,83              4,77        26,47
+A = Kliendi poolt arvutatud tegelik kaal V = Kliendi poolt arvutatud mahukaal 8 = DHLi poolt arvutatud tegelik kaal W = DHLi poolt arvutatud mahukaal M = sega

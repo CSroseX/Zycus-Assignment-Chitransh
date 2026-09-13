@@ -1,0 +1,68 @@
+Silverbrook Print
+Northwind Services Dk Aps                                                                                               Rua do Ouro 40
+Att : Sofia      Roth                                                                                                        2605 Brondby
+Lindenstrasse 3
+2610 Rodovre                                                                                                            Telefon                   +5506340887
+Danmark                                                                                                                     CVR nr                   DK74347584
+Saelger                   clara meyer@oakhaven-systems ost@ster
+Kunde CVR Nr:               94368703
+Reference
+Deres Ordrenr:                                                                                                           AFREGNINGSBILAG
+Faktura                    3025139
+Kundenr:                       197218
+Side 1
+Fakturadato                28-02-26
+Forfaldsdato               30-03-26
+Afregning Februar 2026
+Beskrivelse                                                                            Antal Enhed       Kobspris Moms %                  Belob
+Fraktioner
+Bolgepap                                                                                      10   KG                  0,521            25                     5,21
+Lithium-ion bat: Lowgrade                                                           35  KG                 32,427            25              1.134,95
+Trae, Klasse A2                                                                          100   KG                  2,632            25                 263,20
+Transport
+Liftbil, Farligt affald                                                                               STK                                       25
+Transport 1 . enhed liftbil                                                                 1   STK              513,00            25                 513,00
+Tomning 660L minicontainer                                                         1   STK               172,00            25                 172,00
+Ydelser
+Oparbejdning papir / pap                                                            10   KG                     0,69            25                     6,90
+Vermiculite, 100 L, salg                                                                  1   STK            355,186            25                 355,19
+Vejbenyttelsesafgift                                                                             STK                65,25            25                   65,25
+Miljoindberetning                                                                                 STK               119,00            25                 119,00
+Fakturaadministration                                                                     1   STK              200,00            25                 200,00
+Lejeafregning for februar
+Leje minicont: 660 Itr: mllas                                                           1   STK               120,00            25                 120,00
+Leje minicont: 240 Itr:                                                                     3   STK                60,00           25                 180,00
+Leje  Plastfad, 120 Itr:                                                                   1   STK               156,86            25                 156,86
+Leje minicont: 660 Itr:                                                                     2   STK               112,00            25                 224,00
+Leje Plast stativer                                                                           1   STK                67,00            25                   67,00
+Overfort                                                    3.582,56
+
+--- PAGE BREAK ---
+
+Side 2
+Talt DKK'                                                3.582,56
+25% moms                                                  895,64
+alt DKK inkl: moms'                            4.478,20
+henhold til Affaldsbekendtgorelsen $ 78, stk. 5 og 6, overtager vi ansvaret for aflevering af affaldet pa et registreret
+genanvendelsesanlaeg og indberetning til Affaldsdatasystemet
+Safremt betaling ikke sker rettidigt; palaegges renter 0g gebyr jf. Samhandelsbetingelser:
+Betalings information
+Kortart                71
+Betalings ID      0000003025139 01
+Kreditor Nr:       86682469
++71<     0000003025139  01+86682469   <
+
+--- PAGE BREAK ---
+
+Side 3
+Specifikation            3025139
+Kobspris eks:
+Dato            Beskrivelse                                                                                                               Antal Enhed    Moms                             Belob
+20-02-2026   Transport 1. enhed liftbil                                                                                                           STK                     513,000               513,00
+20-02-2026   Trae , Klasse A2                                                                                                                 100 KG                           2,632               263,20
+23-02-2026   Liftbil; Farligt affald                                                                                                                1  STK                         0,000                   0,00
+23-02-2026   Lithium-ion bat: Lowgrade                                                                                                   35 KG                         32,427             1.134,95
+23-02-2026   Vermiculite , 100 L, salg                                                                                                             STK                     355,186               355,19
+25-02-2026   Tomning 660L minicontainer                                                                                                     STK                      172,000               172,00
+25-02-2026   Oparbejdning papir pap                                                                                                     10 KG                           0,690                   6,90
+25-02-2026   Bolgepap                                                                                                                           10 KG                           0,521                   5,21

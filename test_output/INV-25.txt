@@ -1,0 +1,93 @@
+CL=                                                                                    FAC A98/712
+Original      Folha
+No 1 de 1
+Fairmont Services LDA
+High Street 34
+1000-137 LISBOA
+Support Services PT Unipessoal, Lda
+ro 224
+Chamada para a rede fixa nacional: Tel:404864
+Caso esteja a ligar d estrangeiro contacte a sua ope                                                                              Lisboa
+para saber a taxa aplicada
+IBAN: PT03 3800 2817 0335 4051 0822 4
+Contribuinte No :029461956
+Capital Social: 9975.96€
+Registada na CR Cde LX: N.02888
+E-Mail: Iena silva@larkspur-partnerscom
+PT456472637
+Emitido em                 Condicoes de Pagamento                                 Vencimento em
+1                                                             2026-04-13            Pagamento Credito                                        2026-05-13
+V/ Documento                             Cliente No                   VI Contribuinte                Transporte
+9448                            353598648                           V/Viatura
+1
+(Alinea f do No 5 do Arto 36 CIVA) Os artigos facturados foram colocados a disposicao do adquirente em 2026-04-13
+REFERENCIA             DESCRICAO                           COR          TAM        QUANTIDADE UNI     P.VENDA CIIVA   DESC     VALOR LIQUIDO    IVA
+C6                             FOT /IMPRESSAO A4 CORES                    A4                   400,00 UNI             0,400 EUR                         160,00 EUR 23 %
+1
+ESTUD.
+FLI                            FOLHA  80g                            BRANCO    A4                   400,00 UNI             0,000 EUR                            0,00 EUR 23 %
+FL2                            FOLHA   120g                          BRANCO    A4                   200,00 UNI             0,080 EUR                           16,00 EUR 23 %
+Observacoes:
+HiglStreet 34
+Fairmont Services LDA
+anFo  Processado por programa certificado n" 1217/AT     Sage
+Incidencia                                   Valor de LVA:                          TOTAL BRUTO                                                              176,00 EUR
+143,09 23,0 %                      32,91                          DESCONTO LINHA                                                            0,00 EUR
+0,00  0,0 %                         0,00                          DESCONTO GLOBAL                                                          0,00 EUR
+0,00  0,0 %                         0,00                         TOTAL LIQUIDO                                                          143,09 EUR
+0,00  0,0 %                         0,00                         TOTAL LVA                                                                     32,91 EUR
+TOTAL PORTES                                                                  0,00 EUR
+Hora de Carga:       12.38         Hora Descarga:
+Total                                                                      176,00 EUR
+Local de Carga:      N/INSTALACOES
+Local de Descarga: Rua do Ouro 224
+1250-148 Lisboa
+Sage licenciado a: Kingsley Partners LDA
+
+--- PAGE BREAK ---
+
+CL=                                                                                    FAC A98/712
+Duplicado      Folha
+No 1 de 1
+Fairmont Services LDA
+High Street 34
+1000-137 LISBOA
+Support Services PT Unipessoal, Lda
+ro 224
+Chamada para a rede fixa nacional: Tel:404864
+Caso esteja a ligar d estrangeiro contacte a sua ope                                                                              Lisboa
+para saber a taxa aplicada
+IBAN: PT03 3800 2817 0335 4051 0822 4
+Contribuinte No :029461956
+Capital Social: 9975.96€
+Registada na CR Cde LX: N.02888
+E-Mail: Iena silva@larkspur-partnerscom
+PT456472637
+Emitido em                 Condicoes de Pagamento                                 Vencimento em
+1                                                             2026-04-13            Pagamento Credito                                        2026-05-13
+V/ Documento                             Cliente No                   VI Contribuinte                Transporte
+9448                            353598648                           V/Viatura
+1
+(Alinea f do No 5 do Arto 36 CIVA) Os artigos facturados foram colocados a disposicao do adquirente em 2026-04-13
+REFERENCIA             DESCRICAO                           COR          TAM        QUANTIDADE UNI     P.VENDA CIIVA   DESC     VALOR LIQUIDO    IVA
+C6                             FOT /IMPRESSAO A4 CORES                    A4                   400,00 UNI             0,400 EUR                         160,00 EUR 23 %
+1
+ESTUD.
+FLI                            FOLHA  80g                            BRANCO    A4                   400,00 UNI             0,000 EUR                            0,00 EUR 23 %
+FL2                            FOLHA   120g                          BRANCO    A4                   200,00 UNI             0,080 EUR                           16,00 EUR 23 %
+Observacoes:
+HiglStreet 34
+Fairmont Services LDA
+anFo  Processado por programa certificado n" 1217/AT     Sage
+Incidencia                                   Valor de LVA:                          TOTAL BRUTO                                                              176,00 EUR
+143,09 23,0 %                      32,91                          DESCONTO LINHA                                                            0,00 EUR
+0,00  0,0 %                         0,00                          DESCONTO GLOBAL                                                          0,00 EUR
+0,00  0,0 %                         0,00                         TOTAL LIQUIDO                                                          143,09 EUR
+0,00  0,0 %                         0,00                         TOTAL LVA                                                                     32,91 EUR
+TOTAL PORTES                                                                  0,00 EUR
+Hora de Carga:       12.38         Hora Descarga:
+Total                                                                      176,00 EUR
+Local de Carga:      N/INSTALACOES
+Local de Descarga: Rua do Ouro 224
+1250-148 Lisboa
+Sage licenciado a: Kingsley Partners LDA

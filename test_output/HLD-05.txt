@@ -1,0 +1,68 @@
+7769922058                                    12/06/2026
+856/AT
+2
+1                ORIGINAL                                                 PT668715865
+Northwind Support Services PT Unipessoal, Lda
+Parnu mnt 224
+i Sede Social
+1 Northwind Support Services PT Unipessoal, Lda
+Portugal
+Parnu mnt 224
+2
+8  Portugal
+L
+1
+54634-386-26-3530238             Northwind Parkside
+1500-510 Lisboa Portugal
+Os arigos Ialurados Ioram colocados & disposicao do ad
+3800148153
+ESC
+Codigo   Designacao                                                            Quant   UN
+IEC                         Unitario                         Prom     Com                      Incidencia     %
+1279010     SAGRES Branca Gfa Tab 6x1L PT                               40     TAB        14,76        590,40        54,080                     46,40          317.51     23
+1080009     HEINEKEN Barril OW 5L PT                                                  BAR        24,53         147.,18        61,240                      7,26           64,31      23
+1270001      SAGRES Branca Gfa Tab 4(6x25cl) PT 201a                          TAB        24,96          24,96         63,500                      1,16           10,27      23
+1170003     SAGRES Branca Gfa Cxa 20x25cl PT 201a                            CRT        20,80         187,20        66,290                      8,64           71,75      23
+1405109     CASTELLO Original Gfa SW 4(6x25cl) 404a                           PAK        20,40         142,80        60,530                                        56,36      713
+1402053     LUSO PET SW 6x1,5L SDR                                          27     PAK         6,72         181,44        65.110                                        63,30      13
+Deposito SDR                                                            162    UND         0,10          16.20
+1400113     LUSO PET SW 4(6x50cl) SDR                                                PAK        14.64          58,56         44,040                                        32,77      713
+Deposito SDR                                                             96     UND         0,10           9.60
+ESC. IEC Plato          Taxa HL        Litros            Valor          Iliquldo:                             1.796,54 Arredondamento                0,00
+Sup 0 7<=11              19,29          331.00            63,86        Desc: Prom :                        1.049,60 Sub-Tolal c' IVA:            1.012,14
+Sup a 11 <= 13             24.13          90,00             21,71        Desc. Com.:%                           0,00 Cauclonamento:                 0.00
+7 Superior & 15              33,85            7.92              2,68        Base de Incidencla:                 835,27 Encargos:                        0,00
+Total Valor IEC                                                    88,33        IVA Tolal:                             176.87 Retencao:                        0.00
+IVA    13 %                           19,82 Deposito SDR'                 25,80
+IVA    23 %                         157.05
+"IEC ja liquidado atraves de DIC Global
+0 pagamento deste documento devera ser elecluado para & conta bancaria abaixo relerida. junto do Meridian Bank
+REF" 1240 05,/2022 VI BA      Conta Bancaria: IBAN: PT2I 1539 2140 3828 5688 3452 2 ; SWIFT: RBSEALECAPY          Produlor Embalagens: PT17196575
+1 /2
+
+--- PAGE BREAK ---
+
+ATCUD JFZTW2XY-7769922058
+7769922058                                    12/06/2026                                   54634-386-26-3530238                                       3800148153
+856/AT
+2                                                                                       ESC.                         Preco                            Descontos %                         Base       IVA
+1 Codigo   Designacao                                                             Quant_   UN                       Valor                                       IEC
+IEC                         Unitario                         Prom    Com                      Incidencia    %
+1100143     DECVAKUGZK Gfa Cxa 4(6x33cl) ES                                     CRT        48,00          48.00         56,600                      2,68            23.51      23
+Eznzooo3
+HEINEKEN Gfa Cxa 18x25c/ PT                                             CRT        18,72          74,88         57,150                      4,36           36,45      23
+2
+8
+L 1230000     HEINEKEN Gfa Tab 4(6x25cl) PT                                           TAB        24,96        174,72        53,930                     10,15           90,64      23
+8
+1470000     SAGRES Branca Gfa SW 2(1Ox25cl) PT 201a                8      PAK        20,80         166,40        63,510                      7,68           68,40      23
+Sub-total         835,27
+No preco Iiquido corstante desta Iatura poderao ircidir pagamentos e/ou descontos melhor identificados em acordos celebrados entre ambas as partes, labelas de precos elou condicoes de verda emn vigor, direta OU
+exclusivamente relacionados com & transacao dos produtos, delerminaveis quanto a0 produto, quantidade e perioda de vigericia, nos termos da disposto no artigo 5" do Decreto-Iel n. 166/2013,de 27 de Dezembro-
+Sobre estes prod                           outros descontos elou contrapartidas decorrentes daqueles acordos nos termos do relerdo ar                    ade pela gestao dos residuos de embalagens toi
+transfenda para & Blackpine Systems    Mals Informacoes, incluindo os valares das prestacoes financelras Iixadas & (avor daquela, Gm Www lalrmont-partners pt
+jonas berg@meridian-syslerns com jonas lind@brightside-supply_ce
+'Valor de Deposito nao sujelto a IVA Dec: Lei n? 152-0/2017,de 11/12
+0 pagamento deste documento devera ser electuado para & conta barcaria abaixo relerida. Junto do Meridian Bank
+REF" 124005,/2022 VI BA      Conta Bancaria: IBAN: PT2I 1539 2140 3828 5688 3452 2 ; SWIFT: RBSEALECAPY          Produlor Embalagens: PT17196575
+2 / 2

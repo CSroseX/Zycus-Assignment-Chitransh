@@ -1,0 +1,69 @@
+Oakhaven Supply Ltd
+Lindenstrasse 8
+P.O Box 14108, Nairobi, Kenya                                                                32917ALS55
+00400 KEN
+alex meyer@oakhaven-supply ke
+WWW northwind-consulting ke
+PIN P088353697W
+BILL TO
+Northwind Support Kenya Ltd KES
+DATE                    PLEASE PAY                DUE DATE
+Rua do Ouro 117 BUILDING
+03/06/2025              KES 70,654.30               03/07/2025
+AZURE
+TOWERS 1OTH FLOOR
+RIVERSIDE
+SQUARE RIVERSIDE DRIVE
+00600 Nairobi Kenya
+PIN P221296346U
+ACTIVITY                                                                                                             TAX                     QTY                  RATE                                 AMOUNT
+Handling Out (per CBM)                                                                               Std               0.2744              500.00                                  137.20
+Handling Out of POS DEVICES(SUNMI
+VZPRO) on 19th May
+0.OO686CBM   40 units
+Transport                                                                                                          Std                                        3,000.00                               3,000.00
+Transport of POS devices(SUNMI VZPRO) on 4th April
+Transport                                                                                                          Std                           1            1,500.00                               1,500.00
+Transport of POS DEVICES(SUNMI VZPRO) on 19th
+May
+Storage charges                                                                                             Std          40.53574                 30.00                               1,216.07
+Storage charges for POS devices(SUNMI VZPRO) from
+Ist to 19th May
+0.00686 CBM 311units 19days
+Storage charges                                                                                             Std           22.30872                 30.00                                   669.26
+Storage charges for POS devices(SUNMI VZPRO) from
+20th to 31st May
+0.00686 CBM" 271units"12days
+Storage charges                                                                                             Std       1,646.2116                 30.00                             49,386.35
+Storage charges for Food
+deliverybag(insulated bag) from Ist to 31st May
+0.0297 CBM  1788 units 31 days
+Stock Management fee                                                                                 Std                                         5,000.00                               5,000.00
+Monthly stock Management fee
+Account Name: Cloverdale Mobility Limited
+Bank Name: Larkspur Bank
+Bank Branch: Swissport
+Swift Code: PSDHKIZC
+Bank Code: 07000
+Kenya Shillings (KES): Account Number 6786517608
+United States Dollar (USD): Account Number 8672480023
+Euro (EUR): Account Number 8672480039
+
+--- PAGE BREAK ---
+
+Warehosuing for May 2025                                                                            SUBTOTAL                                                                     60,908.88
+TAX                                                                                     9,745.42
+TOTAL                                                                              70,654.30
+TOTAL DUE                                          KES 70,654.30
+THANK YOU_
+TAX SUMMARY
+RATE                                                        TAX                                                                                           NET
+VAT @ 16%                                               9,745.42                                                                                60,908.88
+Account Name: Cloverdale Mobility Limited
+Bank Name: Larkspur Bank
+Bank Branch: Swissport
+Swift Code: PSDHKIZC
+Bank Code: 07000
+Kenya Shillings (KES): Account Number 6786517608
+United States Dollar (USD): Account Number 8672480023
+Euro (EUR): Account Number 8672480039

@@ -1,0 +1,81 @@
+europastry
+Blackpine Supply S.A
+Qta da Mendanha, OTAPARK ,, Fracao AN, 2580-490 Carregado
+Cap: Soc: 5.170.000€  NIF: 785255159
+IBAN: PT28909636405289370959536             SWIFT: YDSHMSZZC
+Telf: +361 140 985 503      (rede fixa nacional)  www fairmont-distribution.C
+Direcao Fiscal                                                                       Direcao de
+Northwind SUPPORT SERVICES PT, UNIPESSOAL Cloverdale DisVuthlm Clovek
+Bahnhofstrasse 224                                                                     High Street 31
+1250-148 LISBOA                                                                 1150-311 LI'
+NIF: 353598648
+618745
+Email: david vidal@northwind.eu
+Zona
+Reference: REF-841468
+Fatura                   FN 05/80906935                          Data      2026-06-15                                                                                 Original
+Cod:                       Descricao                                                                        Qtd:              Preco                Valor                      IVA
+62782                     Empanadilha Atum Cozida (S0u)                                                         41,68                41,68               23,00%
+67110                     Pao Burger Brioch LeBrio14px4u                                                        28,43                28,43                 6,00%
+67322                     Chapata Cristallino 28px2u                                                1                25,94                25,94                 6,00%
+85101                     Pao Maestra Classica 7u                                                    2                13,43                26,86                 6,00%
+85102                     Pao Maestra Cereais 7u                                                     1                 15,29                15,29                 6,00%
+Num. Pedido                                                                                  Total            6                                         138,20
+Empresa Certificada RSPO n  BMC-RSPO-000188
+A responsabilidade pela gestao de residuos de embalagens foi transferida para a Entidade Gestora: Silverbrook Mobility
+Silverbrook Mobility           Mais informacoes, incluindo os valores das prestacoes financeiras fixadas a favor daquela, em
+WwWnorthwind-technbsg beps foram colocados a disposicao do adquirente na data da descarga  art.369 , n"5, fl do CIVA
+Data Transporte      2026-06-15                            Hora de inicio de transporte    00.00 h
+Local Carga              Qta Medanha, / 2580-491, CARREGADO / Espala
+Local Descarga        Morada entrega cliente
+AHm8-Processado por programa certificado n." 6847/AT
+Rubricas                              Base                      %                   Valor
+Rota                             804                                                        Incidencia                            41,68           23,C 00%                     9,59
+Ped:                              80120853                                                 Incidencia                            96,52             6,00%                     5,79
+ATDocCodeld
+Vencimento               2026-07-16
+Modo Pagamento    Transf: bancaria
+TOTAL                                                                              EUR 153,58
+Pag: 1/2
+
+--- PAGE BREAK ---
+
+europastry
+Blackpine Supply S.A
+Qta da Mendanha, OTAPARK ,, Fracao AN, 2580-490 Carregado
+Cap: Soc: 5.170.000€  NIF: 785255159
+IBAN: PT28909636405289370959536             SWIFT: YDSHMSZZC
+Telf: +361 140 985 503      (rede fixa nacional)  www fairmont-distribution.com
+Direcao Fiscal                                                               Direcao de Entrega
+Northwind SUPPORT SERVICES PT, UNIPESSOAL Cloverdal diallidip Cloverdale Distribution LDA
+Northwind SUPPORT SERVICES PT, UNIPESSOAL Cloverdale Distribution Cloverdale Distribution LDA
+Bahnhofstrasse 224                                                              High Street 31
+1250-148 LISBOA                                                          1150-311 LISBOA
+NIF: 353598648
+618745
+Zona
+Artigo         Descricao                                        Qtd. Pedida Qtd: Entregue                  Lote Qtd: pl Lote Data Validade
+Pao Burger Brioch
+67110                                                                                             1                                         61070V1                      1        2027-04-17
+LeBrio1Apx4u
+67322          Chapata Cristallino 28px2u                                                                          61540V3                                2027-08-27
+85101           Pao Maestra Classica 7u                                   2                          2          61133H4                     2        2027-04-23
+85102          Pao Maestra Cereais 7u                                     1                                        60582H4                                2027-02-27
+1
+Empanadilha Atum Cozida
+62782                                                                                             1                                        6135009                                2027-05-05
+(sou)
+Total                      6                          6
+Data de Entrega  Estimada   Data de Entrega  Real             Temperatura
+2026-06-16 02.51                       2026-06-16 09.54                                      -18,00
+A responsabilidade pela gestao de residuos de embalagens foi transferida para a Entidade Gestora: Silverbrook Mobility
+Silverbrook Mobility          Mais informacoes, incluindo OS valores das prestacoes financeiras fixadas a favor daquela, em
+northwind-technOsgbeps foram colocados a disposicao do adquirente na data da descarga  art.369 , n"5, fl do CIVA
+WWW
+Data Transporte                                                          Hora de inicio de transporte    00.00 h
+Local Carga              Qta Medanha, / 2580-491, CARREGADO / Espala
+Local Descarga        Morada entrega cliente
+Rota                             804
+Ped.                              80120853                                                                                                                             (ILANDIA)
+Assinatura:
+Pag: 2/2

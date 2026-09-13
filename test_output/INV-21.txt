@@ -1,0 +1,38 @@
+High Street 8
+Oakhaven Partners LDA                                                                   2799-554 LINDA-A-VELHA
+Contribuinte N" PT 059 909 082    Capital Social 30.000.000 Euros, Nr. Registo SIRER: PT12964656
+IBAN: PT76698391551688438577388
+TIPO DE DOCUMENTO           No DE DOCUMENTO             DOC. ORIGEM      N" CONTRIBUINTE    DATA FACTURA            N" de pag
+FATURA                             9884313366                                                         PT668715865                 06/04/2026                     1 /1
+LOCAL DE ENTREGA                                                                                EXMO(S) SR(S)
+Northwind SUPPORT SERVICES PT, UNIPESSOAL LDA                                 Northwind SUPPORT SERVICES PT, UNIPESSOAL LDA
+NorthEiadritorio                                                                                 NorthEadritorio
+Avenida Central 224                                                                              Avenida Central 224
+1250-148 Lisboa                                                                             1250-148 Lisboa
+CLIENTE
+Northwind SUPPORT SERVICES PT, UNIPESSOAL LDA
+SERVICQ DE APOIQ AQ CLIENTE                           NorthEacritorio
+Lisboa                                                       TEL 89 7230833             Avenida Central 224
+MORADA:   High Street 8                                                                  1250-148 Lisboa
+COD. POSTAL 2799-554    LOCALIDADE  Linda-a-Velha
+N'GUIA ENTREGA   DATA DE ENTREGA      REQUISICAO     N' DOC RECEPCAO DO CLIENTE       ARMAZEM        N" ENT PAGADORA       N" CLIENTE      No LOCAL ENTREGA
+6292675928           02/04/2026         FTOU368444                                                 PT DC Lisboa         6679482          200836565        200836565
+COD. EAN         ARTIGO                   DESCRICAO DO ARTIGO                      QUANT      PRECO  DESCONTOS %         VALOR        IVA
+Vireo                                                                                    UVda   UND     UNIT,
+5601126039575     12422850     SICAL SUPER BAR Cale Grao GxIkg N1PT                     24,000                34,69 51,00                                407,95       23
+Desconto em Valor BEVERAGES SOLUTIONS                                                                                                      8,30-
+8445291766662    12616271      Vireo   Chocolate Quente 12(25*20g) NI                         1,000                 10,01                                              10,01       23
+8445291894877     12624778     NESCAFE Acucar Std 1x2 ~8kg PT                                  1,000                   8,30                                               8,30       23
+054881000024      14181244      AHMAD Inf MentaHrLim 6(20x1,S9)NIPT                         3,000                   2,94                                               8,82       23
+054881000062      14186288     AHMAD Inf Camomila 6(20x1,5g)NIPT                             3,000                  2,94                                               8,82       23
+COMENTARIOS:
+IMPOSTO SOBRE VALOR ACRESCENTADO         DATA DE VENCIMENTO              06/05/2026            VALOR BRUTO                       868,51
+%          INCIDENCIA                 VALOR                                                                                               DESC . PROM IQNT
+432,91
+10,19                  CONDICOES DE PAGAMENTO
+DESC . FIOSIZVKAO
+IVA                                100,19
+Ale dia 06/05/2026
+10,19                                                                                       TOTAL A PAGAR                      535,79
+programa cerlificado n,9631/AT Os bens foram colocados & disposicua do ad
+mencionada;                                                                                                                                         IAL
