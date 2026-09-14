@@ -205,7 +205,7 @@ def run_pipeline_generator(target_files: list[Path]):
                 "total": len(target_files)
             }
 
-            txt_cache = Path("test_output") / f"{pdf.stem}.txt"
+            txt_cache = Path("parsed_files") / f"{pdf.stem}.txt"
             path_used = "PyMuPDF Native Vector Text"
             page_count = 1
 
@@ -263,7 +263,8 @@ def run_pipeline_generator(target_files: list[Path]):
                 
                 # Phase 3: Classification
                 class_res = classify_document_text(seg_text, filename=sub_label)
-                print(f"  [STEP 3: CLASSIFICATION]         -> Payable: {class_res.is_payable} | Type: {class_res.doc_type} (Score: {class_res.score})", flush=True)
+                confidence_score = getattr(class_res, 'confidence', getattr(class_res, 'score', 1.0))
+                print(f"  [STEP 3: CLASSIFICATION]         -> Payable: {class_res.is_payable} | Type: {class_res.doc_type} (Confidence: {confidence_score})", flush=True)
 
                 step3_event = {
                     "step": 3,
@@ -271,7 +272,7 @@ def run_pipeline_generator(target_files: list[Path]):
                     "title": f"Phase 3: Classification [{sub_label}]",
                     "is_payable": class_res.is_payable,
                     "doc_type": class_res.doc_type,
-                    "score": class_res.score,
+                    "score": confidence_score,
                     "reasons": class_res.reasons
                 }
                 trace.append(step3_event)
@@ -394,17 +395,20 @@ def run_pipeline_generator(target_files: list[Path]):
             }
             out_json_path = out_dir / f"{pdf.stem}.json"
             out_json_path.write_text(json.dumps(file_payload, indent=2, ensure_ascii=False), encoding="utf-8")
-            print(f"[STEP 6: JSON SAVED]               -> Saved JSON to '{out_json_path}'", flush=True)
+            print(f"LAST [STEP 6: JSON SAVED]               -> Saved JSON to '{out_json_path}'", flush=True)
 
-            # Determine overall document status
-            if payables and all(
-                any(ev.get("step") == 7 and ev.get("status") == "PASS" for ev in st.session_state.doc_traces[filename])
-                for _ in payables
-            ):
-                final_status = "PASS"
-                st.session_state.stats["first_try_pass"] += len(payables)
-            elif doc_has_payable:
-                final_status = "PASS"
+            # Determine overall document status (100% consistent with ERP booking check)
+            if payables:
+                has_erp_fail = any(
+                    ev.get("step") == 7 and ev.get("status") == "FAIL"
+                    for ev in st.session_state.doc_traces[filename]
+                )
+                if has_erp_fail:
+                    final_status = "FAIL"
+                    st.session_state.stats["failed"] += 1
+                else:
+                    final_status = "PASS"
+                    st.session_state.stats["first_try_pass"] += len(payables)
             else:
                 final_status = "DECLINED"
 
@@ -539,7 +543,16 @@ def render_trace(doc_name: str | None):
         st.info(f"Document `{doc_name}` is queued. Click **🚀 Start** in sidebar to run pipeline.")
         return
 
+    # Deduplicate events by (step, subdoc_idx) to prevent duplicate expander rendering
+    seen_keys = set()
+    unique_events = []
     for ev in events:
+        key = (ev.get("step"), ev.get("subdoc_idx", 1))
+        if key not in seen_keys:
+            seen_keys.add(key)
+            unique_events.append(ev)
+
+    for ev in unique_events:
         step = ev.get("step")
 
         # Step 1: OCR & Layout Extraction
@@ -561,7 +574,7 @@ def render_trace(doc_name: str | None):
                 col_a, col_b, col_c = st.columns(3)
                 col_a.metric("Payable Verdict", "PAYABLE" if ev["is_payable"] else "DECLINED")
                 col_b.metric("Doc Type", ev["doc_type"])
-                col_c.metric("Payable Score", ev["score"])
+                col_c.metric("Confidence", f"{ev.get('score', 1.0):.2f}" if isinstance(ev.get('score'), (int, float)) else str(ev.get('score', '1.0')))
                 st.markdown("**Rule Breakdown Reasons:**")
                 for r in ev["reasons"]:
                     st.markdown(f"- `{r}`")

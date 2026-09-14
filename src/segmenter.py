@@ -95,7 +95,7 @@ def segment_document_text(ocr_text: str) -> list[str]:
 if __name__ == "__main__":
     import sys
     from pathlib import Path
-    target = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("test_output/DU-02.txt")
+    target = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("parsed_files/DU-02.txt")
     text = target.read_text(encoding="utf-8", errors="ignore")
     subdocs = segment_document_text(text)
     print(f"Segmented '{target.name}' into {len(subdocs)} sub-document(s).")

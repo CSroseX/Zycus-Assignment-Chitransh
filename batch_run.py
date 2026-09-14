@@ -14,7 +14,7 @@ from src.classifier import classify_file
 from src.extractor import extract_payable_from_text
 from src.grounding import verify_payable_grounding
 
-txt_files = sorted(list(Path('test_output').glob('*.txt')))
+txt_files = sorted(list(Path('parsed_files').glob('*.txt')))
 print(f"=== RUNNING REAL GEMINI 3.6 FLASH BATCH EXTRACTION ACROSS ALL {len(txt_files)} DOCUMENTS ===\n", flush=True)
 
 total_docs = len(txt_files)

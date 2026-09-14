@@ -268,7 +268,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     target_path = Path(sys.argv[1])
-    out_dir = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("test_output")
+    out_dir = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("parsed_files")
     out_dir.mkdir(parents=True, exist_ok=True)
 
     if target_path.is_dir():

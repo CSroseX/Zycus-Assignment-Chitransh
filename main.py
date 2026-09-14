@@ -55,7 +55,7 @@ def process_all_documents(input_dir: str | Path = "documents", output_dir: str |
         print(f"DOCUMENT [{idx:02d}/{len(pdf_files)}]: {pdf.name}", flush=True)
         print("-" * 80, flush=True)
 
-        txt_cache = Path("test_output") / f"{pdf.stem}.txt"
+        txt_cache = Path("parsed_files") / f"{pdf.stem}.txt"
         
         # STEP 1: OCR Extraction / Cache Load
         if txt_cache.exists():
@@ -118,7 +118,7 @@ def process_all_documents(input_dir: str | Path = "documents", output_dir: str |
 
         out_json_path = out_path / f"{pdf.stem}.json"
         out_json_path.write_text(json.dumps(file_payload, indent=2, ensure_ascii=False), encoding="utf-8")
-        print(f"\n[STEP 6: JSON SAVED]               -> Saved JSON to '{out_json_path}'\n", flush=True)
+        print(f"\n LAST [STEP 6: JSON SAVED]               -> Saved JSON to '{out_json_path}'\n", flush=True)
 
     print("=" * 80, flush=True)
     print("=== PIPELINE EXECUTION SUMMARY ===", flush=True)

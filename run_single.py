@@ -23,11 +23,11 @@ if len(sys.argv) < 2:
     sys.exit(1)
 
 doc_name = sys.argv[1].strip()
-txt_path = Path("test_output") / f"{doc_name}.txt"
+txt_path = Path("parsed_files") / f"{doc_name}.txt"
 if not txt_path.exists():
-    txt_path = Path("test_output") / f"{doc_name}"
+    txt_path = Path("parsed_files") / f"{doc_name}"
 if not txt_path.exists():
-    print(f"Error: File '{doc_name}' not found in test_output/")
+    print(f"Error: File '{doc_name}' not found in parsed_files/")
     sys.exit(1)
 
 full_ocr_text = txt_path.read_text(encoding="utf-8", errors="ignore")

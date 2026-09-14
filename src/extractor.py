@@ -36,7 +36,11 @@ load_dotenv(override=True)
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "").strip()
 GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile").strip()
 
-# 2. Gemini API Configuration
+# 2. OpenRouter API Configuration
+OPEN_ROUTER_API_KEY = (os.getenv("OPEN_ROUTER_API") or os.getenv("OPENROUTER_API_KEY") or "").strip()
+OPEN_ROUTER_MODEL = (os.getenv("OPEN_ROUTER_MODEL") or os.getenv("OPENROUTER_MODEL") or "meta-llama/llama-3.2-3b-instruct").strip()
+
+# 3. Gemini API Configuration
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash").strip()
 MODEL_NAME = GEMINI_MODEL
@@ -319,9 +323,119 @@ def call_groq_api(ocr_text: str, filename: str = "") -> str:
         err_body = e.read().decode("utf-8", errors="ignore")
         if e.code == 429 or "rate_limit_exceeded" in err_body.lower() or "quota" in err_body.lower():
             raise QuotaExhaustedError(f"Groq API Quota Exhausted ({GROQ_MODEL}): HTTP {e.code} - {err_body}") from e
+        if e.code == 400 and ("json_validate_failed" in err_body.lower() or "validate json" in err_body.lower()):
+            # Retry without response_format constraint
+            payload_retry = dict(payload)
+            payload_retry.pop("response_format", None)
+            req_retry = urllib.request.Request(
+                url,
+                data=json.dumps(payload_retry).encode("utf-8"),
+                headers={
+                    "Authorization": f"Bearer {GROQ_API_KEY}",
+                    "Content-Type": "application/json",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+                },
+                method="POST"
+            )
+            try:
+                with urllib.request.urlopen(req_retry) as resp:
+                    resp_data = json.loads(resp.read().decode("utf-8"))
+                    content = resp_data["choices"][0]["message"]["content"].strip()
+                    # Clean markdown code block or extract JSON substring
+                    if "```json" in content:
+                        content = content.split("```json")[1].split("```")[0].strip()
+                    elif "```" in content:
+                        content = content.split("```")[1].split("```")[0].strip()
+                    start_idx = content.find("{")
+                    end_idx = content.rfind("}")
+                    if start_idx != -1 and end_idx != -1 and end_idx > start_idx:
+                        content = content[start_idx:end_idx+1]
+                    return content
+            except Exception as retry_err:
+                raise RuntimeError(f"Groq API Call Failed: HTTP 400 - {err_body}") from retry_err
+
         raise RuntimeError(f"Groq API Call Failed: HTTP {e.code} - {err_body}") from e
     except Exception as e:
         raise RuntimeError(f"Groq API Error: {e}") from e
+
+
+def call_openrouter_api(ocr_text: str, filename: str = "") -> str:
+    """Call OpenRouter API (OpenAI-compatible Chat Completions) via stdlib urllib.request."""
+    if not OPEN_ROUTER_API_KEY or "<" in OPEN_ROUTER_API_KEY:
+        raise ValueError("OPEN_ROUTER_API key is missing or invalid.")
+
+    full_prompt_input = f"{SYSTEM_PROMPT}\n\nDOCUMENT TEXT:\n{ocr_text}"
+
+    print("\n" + "=" * 80, flush=True)
+    print(f"=== EXACT AI INPUT PAYLOAD FED TO OPENROUTER FOR [{filename or 'DOCUMENT'}] ===", flush=True)
+    print(f"Model Name: {OPEN_ROUTER_MODEL} | Chars: {len(full_prompt_input)} | Est Tokens: ~{len(full_prompt_input) // 4}", flush=True)
+    print("=" * 80, flush=True)
+    print(full_prompt_input, flush=True)
+    print("=" * 80 + "\n", flush=True)
+
+    url = "https://openrouter.ai/api/v1/chat/completions"
+    payload = {
+        "model": OPEN_ROUTER_MODEL,
+        "messages": [
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": f"DOCUMENT TEXT:\n{ocr_text}"}
+        ],
+        "response_format": {"type": "json_object"},
+        "temperature": 0.1
+    }
+
+    req = urllib.request.Request(
+        url,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "Authorization": f"Bearer {OPEN_ROUTER_API_KEY}",
+            "Content-Type": "application/json",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+        },
+        method="POST"
+    )
+
+    try:
+        with urllib.request.urlopen(req) as resp:
+            resp_data = json.loads(resp.read().decode("utf-8"))
+            content = resp_data["choices"][0]["message"]["content"]
+            return content.strip()
+    except urllib.error.HTTPError as e:
+        err_body = e.read().decode("utf-8", errors="ignore")
+        if e.code == 429 or "rate_limit_exceeded" in err_body.lower() or "quota" in err_body.lower():
+            raise QuotaExhaustedError(f"OpenRouter API Quota Exhausted ({OPEN_ROUTER_MODEL}): HTTP {e.code} - {err_body}") from e
+        if e.code == 400 and ("json_validate_failed" in err_body.lower() or "validate json" in err_body.lower()):
+            payload_retry = dict(payload)
+            payload_retry.pop("response_format", None)
+            req_retry = urllib.request.Request(
+                url,
+                data=json.dumps(payload_retry).encode("utf-8"),
+                headers={
+                    "Authorization": f"Bearer {OPEN_ROUTER_API_KEY}",
+                    "Content-Type": "application/json",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+                },
+                method="POST"
+            )
+            try:
+                with urllib.request.urlopen(req_retry) as resp:
+                    resp_data = json.loads(resp.read().decode("utf-8"))
+                    content = resp_data["choices"][0]["message"]["content"].strip()
+                    if "```json" in content:
+                        content = content.split("```json")[1].split("```")[0].strip()
+                    elif "```" in content:
+                        content = content.split("```")[1].split("```")[0].strip()
+                    start_idx = content.find("{")
+                    end_idx = content.rfind("}")
+                    if start_idx != -1 and end_idx != -1 and end_idx > start_idx:
+                        content = content[start_idx:end_idx+1]
+                    return content
+            except Exception as retry_err:
+                raise RuntimeError(f"OpenRouter API Call Failed: HTTP 400 - {err_body}") from retry_err
+
+        raise RuntimeError(f"OpenRouter API Call Failed: HTTP {e.code} - {err_body}") from e
+    except Exception as e:
+        raise RuntimeError(f"OpenRouter API Error: {e}") from e
 
 
 def get_raw_gemini_response(ocr_text: str, filename: str = "") -> str:
@@ -356,9 +470,17 @@ def get_raw_gemini_response(ocr_text: str, filename: str = "") -> str:
 
 
 def get_raw_llm_response(ocr_text: str, filename: str = "") -> str:
-    """Route LLM extraction call to Groq API if GROQ_API_KEY is present, else Gemini API."""
+    """Route LLM extraction call to available API provider (OpenRouter -> Groq -> Gemini)."""
+    if OPEN_ROUTER_API_KEY and "<" not in OPEN_ROUTER_API_KEY:
+        try:
+            return call_openrouter_api(ocr_text, filename=filename)
+        except Exception as e:
+            print(f"OpenRouter API failed ({e}), trying fallback providers...", file=sys.stderr)
     if GROQ_API_KEY and "gsk_" in GROQ_API_KEY and "<" not in GROQ_API_KEY:
-        return call_groq_api(ocr_text, filename=filename)
+        try:
+            return call_groq_api(ocr_text, filename=filename)
+        except Exception as e:
+            print(f"Groq API failed ({e}), trying fallback providers...", file=sys.stderr)
     return get_raw_gemini_response(ocr_text, filename=filename)
 
 
@@ -368,14 +490,20 @@ _matcher = MasterDataMatcher()
 
 
 def extract_payable_from_text(ocr_text: str, filename: str = "", allow_fallback: bool = False) -> dict:
-    """Extract structured autodraft JSON from OCR layout text using Groq or Gemini API."""
+    """Extract structured autodraft JSON from OCR layout text using OpenRouter, Groq, or Gemini API."""
+    has_openrouter = bool(OPEN_ROUTER_API_KEY and "<" not in OPEN_ROUTER_API_KEY)
     has_groq = bool(GROQ_API_KEY and "gsk_" in GROQ_API_KEY and "<" not in GROQ_API_KEY)
     has_gemini = bool(client and GEMINI_API_KEY and "<" not in GEMINI_API_KEY and "lang-client" not in GEMINI_API_KEY)
 
-    if has_groq or has_gemini:
+    if has_openrouter or has_groq or has_gemini:
         try:
             raw_json = get_raw_llm_response(ocr_text, filename=filename)
-            payable_data = json.loads(raw_json)
+            try:
+                payable_data = json.loads(raw_json, strict=False)
+            except Exception:
+                # Fallback: sanitize unescaped newlines inside JSON strings
+                clean_json = re.sub(r'(?<!\\)[\r\n]+', ' ', raw_json)
+                payable_data = json.loads(clean_json, strict=False)
             grounded_payable, _ = verify_payable_grounding(payable_data, ocr_text)
             verify_structural_integrity(grounded_payable)
             return _matcher.resolve_payable(grounded_payable, text_context=ocr_text)
@@ -389,7 +517,7 @@ def extract_payable_from_text(ocr_text: str, filename: str = "", allow_fallback:
         grounded_payable, _ = verify_payable_grounding(payable_data, ocr_text)
         return _matcher.resolve_payable(grounded_payable, text_context=ocr_text)
 
-    raise ValueError("No valid GROQ_API_KEY or GEMINI_API_KEY configured and allow_fallback=False.")
+    raise ValueError("No valid OPEN_ROUTER_API, GROQ_API_KEY or GEMINI_API_KEY configured and allow_fallback=False.")
 
 
 from src.classifier import classify_document_text, classify_file

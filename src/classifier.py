@@ -6,8 +6,8 @@ Reminders, Estimates, Purchase Orders, Delivery Notes, Donation Forms) using
 multi-lingual pattern analysis and structural heuristics.
 
 Usage:
-    python -m src.classifier test_output/
-    python -m src.classifier test_output/INV-01.txt
+    python -m src.classifier parsed_files/
+    python -m src.classifier parsed_files/INV-01.txt
 """
 from __future__ import annotations
 
@@ -188,7 +188,7 @@ def classify_file(file_path: str | Path) -> ClassificationResult:
 
 def main():
     if len(sys.argv) < 2:
-        target = Path("test_output")
+        target = Path("parsed_files")
     else:
         target = Path(sys.argv[1])
 
