@@ -41,64 +41,95 @@ def process_all_documents(input_dir: str | Path = "documents", output_dir: str |
     else:
         pdf_files = sorted(list(in_path.glob("*.pdf")))
 
-    print(f"=== ZYCUS BOOKABLE PAYABLE PIPELINE: PROCESSING {len(pdf_files)} PDF(S) ===")
-    print(f"Input Directory:  {in_path.resolve()}")
-    print(f"Output Directory: {out_path.resolve()}\n")
+    print("=" * 80, flush=True)
+    print(f"=== ZYCUS BOOKABLE PAYABLE PIPELINE: PROCESSING {len(pdf_files)} PDF(S) ===", flush=True)
+    print(f"Input Directory:  {in_path.resolve()}", flush=True)
+    print(f"Output Directory: {out_path.resolve()}", flush=True)
+    print("=" * 80 + "\n", flush=True)
+
+    total_payables_count = 0
+    total_declined_count = 0
 
     for idx, pdf in enumerate(pdf_files, 1):
+        print("-" * 80, flush=True)
+        print(f"DOCUMENT [{idx:02d}/{len(pdf_files)}]: {pdf.name}", flush=True)
+        print("-" * 80, flush=True)
+
         txt_cache = Path("test_output") / f"{pdf.stem}.txt"
         
-        # 1. OCR Extraction / Cache Load
+        # STEP 1: OCR Extraction / Cache Load
         if txt_cache.exists():
             full_ocr_text = txt_cache.read_text(encoding="utf-8", errors="ignore")
+            print(f"[STEP 1: OCR & LAYOUT EXTRACTION] -> Loaded cached text ({len(full_ocr_text)} chars)", flush=True)
         else:
             pages = extract_text(str(pdf))
             full_ocr_text = "\n\n--- PAGE BREAK ---\n\n".join(pages)
+            print(f"[STEP 1: OCR & LAYOUT EXTRACTION] -> Extracted {len(pages)} page(s) via PyMuPDF ({len(full_ocr_text)} chars)", flush=True)
 
-        # 2. Multi-Document Pre-Segmentation
+        # STEP 2: Multi-Document Pre-Segmentation
         subdoc_texts = segment_document_text(full_ocr_text)
+        print(f"[STEP 2: PRE-SEGMENTATION]       -> Segmented into {len(subdoc_texts)} sub-document(s)", flush=True)
 
         payables = []
         declined = []
 
-        print(f"[{idx:02d}/{len(pdf_files)}] Processing {pdf.name} ({len(subdoc_texts)} sub-document segment(s))...", flush=True)
-
         for s_idx, seg_text in enumerate(subdoc_texts, 1):
             sub_label = f"{pdf.name}#subdoc{s_idx}" if len(subdoc_texts) > 1 else pdf.name
+            
+            # STEP 3: Classification
             class_res = classify_document_text(seg_text, filename=sub_label)
+            print(f"\n  >>> Sub-Doc {s_idx}/{len(subdoc_texts)} [{sub_label}]", flush=True)
+            print(f"  [STEP 3: CLASSIFICATION]         -> Payable: {class_res.is_payable} | Type: {class_res.doc_type} (Score: {class_res.score})", flush=True)
 
             if class_res.is_payable:
                 try:
+                    # STEP 4 & STEP 5: Extraction, Grounding & Master Data Matching
+                    print(f"  [STEP 4: AI EXTRACTION & GROUNDING] -> Sending OCR text to Groq API...", flush=True)
                     payable = extract_payable_from_text(seg_text, filename=sub_label, allow_fallback=False)
                     if class_res.doc_type == "CREDIT_MEMO":
                         payable["invoice_type"] = "CREDIT_MEMO"
                     payables.append(payable)
-                    print(f"   -> Sub-Doc {s_idx}: BOOKABLE PAYABLE ({payable.get('gross_total')} {payable.get('currency')})", flush=True)
+                    total_payables_count += 1
+
+                    supp_id = payable.get("supplier", {}).get("supplier_id", "")
+                    comp_code = payable.get("buyer", {}).get("company_code", "")
+                    print(f"  [STEP 5: MASTER DATA MATCHING]   -> Supplier ID: '{supp_id}' | Company Code: '{comp_code}'", flush=True)
+                    print(f"  [STATUS]: BOOKABLE PAYABLE      -> Gross Total: {payable.get('gross_total')} {payable.get('currency')} | Line Items: {len(payable.get('line_items', []))}", flush=True)
+
                 except QuotaExhaustedError as qe:
                     print(f"\n[QUOTA EXHAUSTED STOPPER]: {qe}", flush=True)
-                    print("API Quota limit reached (HTTP 429 RESOURCE_EXHAUSTED). Stopping batch execution immediately.", flush=True)
+                    print("API Quota limit reached. Stopping batch execution immediately.", flush=True)
                     sys.exit(1)
                 except Exception as e:
-                    print(f"   -> Sub-Doc {s_idx}: Extraction Failed ({e})", flush=True)
+                    print(f"  [STEP 4: EXTRACTION FAILED]     -> Error: {e}", flush=True)
                     declined.append({"doc_type": class_res.doc_type, "reason": f"Extraction exception: {e}"})
+                    total_declined_count += 1
             else:
                 declined.append({"doc_type": class_res.doc_type, "reason": "; ".join(class_res.reasons)})
-                print(f"   -> Sub-Doc {s_idx}: DECLINED ({class_res.doc_type})", flush=True)
+                total_declined_count += 1
+                print(f"  [STATUS]: DECLINED              -> Reasons: {'; '.join(class_res.reasons)}", flush=True)
 
-        # Build final AUTODRAFT JSON payload for this PDF file
+        # STEP 6: Save Final AUTODRAFT JSON Payload
         file_payload = {
             "file": pdf.name,
             "payables": payables,
             "declined": declined
         }
 
-        # Write output JSON file
         out_json_path = out_path / f"{pdf.stem}.json"
         out_json_path.write_text(json.dumps(file_payload, indent=2, ensure_ascii=False), encoding="utf-8")
+        print(f"\n[STEP 6: JSON SAVED]               -> Saved JSON to '{out_json_path}'\n", flush=True)
 
-    print(f"\nPipeline processing complete. Generated {len(pdf_files)} JSON file(s) in '{out_path}/'.")
+    print("=" * 80, flush=True)
+    print("=== PIPELINE EXECUTION SUMMARY ===", flush=True)
+    print(f"Total Documents Processed: {len(pdf_files)}", flush=True)
+    print(f"Total Payables Extracted:  {total_payables_count}", flush=True)
+    print(f"Total Declined Segments:   {total_declined_count}", flush=True)
+    print(f"Output Directory:          {out_path.resolve()}", flush=True)
+    print("=" * 80 + "\n", flush=True)
 
 
 if __name__ == "__main__":
     target_dir = sys.argv[1] if len(sys.argv) > 1 else "documents"
     process_all_documents(target_dir)
+
