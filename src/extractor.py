@@ -1,11 +1,13 @@
 """
-extractor.py — Phase 4: Structured Auto-Draft Extraction via Gemini API.
+extractor.py — Phase 4: Structured Auto-Draft Extraction via Groq / Gemini API.
 
 Extracts structured header fields, line items, and taxes from OCR layout text
 into autodraft JSON format complying strictly with AUTODRAFT_SCHEMA.md.
 
 Includes:
+- Dual LLM Client Support: Groq API (GROQ_API_KEY) & Gemini API (GEMINI_API_KEY).
 - Rule 1 Grounding Verifier (src/grounding.py) to eliminate hallucinations.
+- Rule 8 Prompt Constraint (unprinted unit_price remains blank "").
 - Structural Audit Verifier (tax placement & component decomposition).
 - Strict ERP Discrepancy Recovery Protocol (document-grounded re-reading only).
 """
@@ -15,6 +17,8 @@ import json
 import os
 import re
 import sys
+import urllib.error
+import urllib.request
 from pathlib import Path
 from typing import Any
 
@@ -28,14 +32,19 @@ from src.ocr_engine import extract_text
 
 load_dotenv(override=True)
 
-# Gemini API Client
-API_KEY = os.getenv("GEMINI_API_KEY")
-MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+# 1. Groq API Configuration
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "").strip()
+GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile").strip()
 
-if not API_KEY or "lang-client" in API_KEY or "<" in API_KEY:
-    API_KEY = os.environ.get("GEMINI_API_KEY", "")
+# 2. Gemini API Configuration
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash").strip()
+MODEL_NAME = GEMINI_MODEL
 
-client = genai.Client(api_key=API_KEY) if API_KEY and "<" not in API_KEY else None
+if not GEMINI_API_KEY or "lang-client" in GEMINI_API_KEY or "<" in GEMINI_API_KEY:
+    GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+
+client = genai.Client(api_key=GEMINI_API_KEY) if GEMINI_API_KEY and "<" not in GEMINI_API_KEY else None
 
 SYSTEM_PROMPT = """
 You are an expert financial invoice parsing system. Convert the provided document OCR layout text into a single JSON object conforming strictly to AUTODRAFT_SCHEMA.md.
@@ -161,19 +170,16 @@ def deterministic_extract_payable(ocr_text: str, filename: str = "") -> dict:
     """Deterministic spatial layout extractor (Fallback when API key is missing/quota exceeded)."""
     t = ocr_text
 
-    # 1. Invoice Number
     inv_num = ""
     inv_match = re.search(r'(?:invoice|rechnung|arve|facture|fatura)\s*(?:nr|no|num|#|\.)*:?\s*([a-zA-Z0-9\-_]+)', t, re.IGNORECASE)
     if inv_match:
         inv_num = inv_match.group(1).strip()
 
-    # 2. Invoice Date
     inv_date = ""
     date_match = re.search(r'(?:date|datum|kuup\u00e4ev)\s*:?\s*(\d{1,4}[\./\-]\d{1,2}[\./\-]\d{1,4})', t, re.IGNORECASE)
     if date_match:
         inv_date = date_match.group(1).strip()
 
-    # 3. Currency
     curr = "EUR"
     if "$" in t or "USD" in t:
         curr = "USD"
@@ -184,13 +190,11 @@ def deterministic_extract_payable(ocr_text: str, filename: str = "") -> dict:
     elif "GBP" in t or "£" in t:
         curr = "GBP"
 
-    # 4. Gross Total
     gross_total = ""
     gross_match = re.search(r'(?:endbetrag|gesamtsumme|total zar|total eur|total usd|amount due|grand total|total amount|total)\s*:?\s*([\$€£]?\s*[\d\.,]+)', t, re.IGNORECASE)
     if gross_match:
         gross_total = parse_dot_decimal(gross_match.group(1))
 
-    # 5. Tax Amount & Rate
     tax_rate = ""
     tax_amt = ""
     tax_match = re.search(r'(?:vat|mwst|tax|sttax)\s*(?:at|@)?\s*(\d+[\.,]?\d*)\s*%\s*:?\s*([\$€£]?\s*[\d\.,]+)?', t, re.IGNORECASE)
@@ -199,7 +203,6 @@ def deterministic_extract_payable(ocr_text: str, filename: str = "") -> dict:
         if tax_match.group(2):
             tax_amt = parse_dot_decimal(tax_match.group(2))
 
-    # 6. Line Items Extraction (spatially aligned numeric rows)
     lines = [l.strip() for l in t.splitlines() if l.strip()]
     line_items = []
     for line in lines:
@@ -221,7 +224,6 @@ def deterministic_extract_payable(ocr_text: str, filename: str = "") -> dict:
                     "taxes": []
                 })
 
-    # Header taxes list
     taxes = []
     if tax_rate or tax_amt:
         taxes.append({
@@ -268,30 +270,77 @@ def deterministic_extract_payable(ocr_text: str, filename: str = "") -> dict:
 
 
 class QuotaExhaustedError(RuntimeError):
-    """Raised when Gemini API rate limit or quota is exhausted (HTTP 429 RESOURCE_EXHAUSTED)."""
+    """Raised when LLM API rate limit or quota is exhausted (HTTP 429 RESOURCE_EXHAUSTED)."""
     pass
 
 
-def get_raw_gemini_response(ocr_text: str, filename: str = "") -> str:
-    """Call Gemini API directly and return the raw unparsed JSON string response.
-    Prints the exact prompt input payload fed to the AI API directly into the terminal in real time.
-    """
-    if not (client and API_KEY and "<" not in API_KEY and "lang-client" not in API_KEY):
-        raise ValueError("Gemini API key is missing or invalid.")
-    
+def call_groq_api(ocr_text: str, filename: str = "") -> str:
+    """Call Groq API (OpenAI-compatible Chat Completions) via stdlib urllib.request."""
+    if not GROQ_API_KEY or "gsk_" not in GROQ_API_KEY:
+        raise ValueError("GROQ_API_KEY is missing or invalid.")
+
     full_prompt_input = f"{SYSTEM_PROMPT}\n\nDOCUMENT TEXT:\n{ocr_text}"
-    
-    # Real-time Terminal Logging
+
     print("\n" + "=" * 80, flush=True)
-    print(f"=== EXACT AI INPUT PAYLOAD FED TO LLM FOR [{filename or 'DOCUMENT'}] ===", flush=True)
-    print(f"Model Name: {MODEL_NAME} | Chars: {len(full_prompt_input)} | Est Tokens: ~{len(full_prompt_input) // 4}", flush=True)
+    print(f"=== EXACT AI INPUT PAYLOAD FED TO GROQ FOR [{filename or 'DOCUMENT'}] ===", flush=True)
+    print(f"Model Name: {GROQ_MODEL} | Chars: {len(full_prompt_input)} | Est Tokens: ~{len(full_prompt_input) // 4}", flush=True)
+    print("=" * 80, flush=True)
+    print(full_prompt_input, flush=True)
+    print("=" * 80 + "\n", flush=True)
+
+    url = "https://api.groq.com/openai/v1/chat/completions"
+    payload = {
+        "model": GROQ_MODEL,
+        "messages": [
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": f"DOCUMENT TEXT:\n{ocr_text}"}
+        ],
+        "response_format": {"type": "json_object"},
+        "temperature": 0.1
+    }
+
+    req = urllib.request.Request(
+        url,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "Authorization": f"Bearer {GROQ_API_KEY}",
+            "Content-Type": "application/json",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+        },
+        method="POST"
+    )
+
+    try:
+        with urllib.request.urlopen(req) as resp:
+            resp_data = json.loads(resp.read().decode("utf-8"))
+            content = resp_data["choices"][0]["message"]["content"]
+            return content.strip()
+    except urllib.error.HTTPError as e:
+        err_body = e.read().decode("utf-8", errors="ignore")
+        if e.code == 429 or "rate_limit_exceeded" in err_body.lower() or "quota" in err_body.lower():
+            raise QuotaExhaustedError(f"Groq API Quota Exhausted ({GROQ_MODEL}): HTTP {e.code} - {err_body}") from e
+        raise RuntimeError(f"Groq API Call Failed: HTTP {e.code} - {err_body}") from e
+    except Exception as e:
+        raise RuntimeError(f"Groq API Error: {e}") from e
+
+
+def get_raw_gemini_response(ocr_text: str, filename: str = "") -> str:
+    """Call Gemini API directly and return the raw unparsed JSON string response."""
+    if not (client and GEMINI_API_KEY and "<" not in GEMINI_API_KEY and "lang-client" not in GEMINI_API_KEY):
+        raise ValueError("Gemini API key is missing or invalid.")
+
+    full_prompt_input = f"{SYSTEM_PROMPT}\n\nDOCUMENT TEXT:\n{ocr_text}"
+
+    print("\n" + "=" * 80, flush=True)
+    print(f"=== EXACT AI INPUT PAYLOAD FED TO GEMINI FOR [{filename or 'DOCUMENT'}] ===", flush=True)
+    print(f"Model Name: {GEMINI_MODEL} | Chars: {len(full_prompt_input)} | Est Tokens: ~{len(full_prompt_input) // 4}", flush=True)
     print("=" * 80, flush=True)
     print(full_prompt_input, flush=True)
     print("=" * 80 + "\n", flush=True)
 
     try:
         response = client.models.generate_content(
-            model=MODEL_NAME,
+            model=GEMINI_MODEL,
             contents=[SYSTEM_PROMPT, f"DOCUMENT TEXT:\n{ocr_text}"],
             config=types.GenerateContentConfig(
                 response_mime_type="application/json",
@@ -302,8 +351,15 @@ def get_raw_gemini_response(ocr_text: str, filename: str = "") -> str:
     except Exception as e:
         err_msg = str(e)
         if "429" in err_msg or "RESOURCE_EXHAUSTED" in err_msg or "quota" in err_msg.lower():
-            raise QuotaExhaustedError(f"Gemini API Quota Exhausted ({MODEL_NAME}): {e}") from e
+            raise QuotaExhaustedError(f"Gemini API Quota Exhausted ({GEMINI_MODEL}): {e}") from e
         raise e
+
+
+def get_raw_llm_response(ocr_text: str, filename: str = "") -> str:
+    """Route LLM extraction call to Groq API if GROQ_API_KEY is present, else Gemini API."""
+    if GROQ_API_KEY and "gsk_" in GROQ_API_KEY and "<" not in GROQ_API_KEY:
+        return call_groq_api(ocr_text, filename=filename)
+    return get_raw_gemini_response(ocr_text, filename=filename)
 
 
 from src.master_matcher import MasterDataMatcher
@@ -312,25 +368,28 @@ _matcher = MasterDataMatcher()
 
 
 def extract_payable_from_text(ocr_text: str, filename: str = "", allow_fallback: bool = False) -> dict:
-    """Extract structured autodraft JSON from OCR layout text using Gemini API."""
-    if client and API_KEY and "<" not in API_KEY and "lang-client" not in API_KEY:
+    """Extract structured autodraft JSON from OCR layout text using Groq or Gemini API."""
+    has_groq = bool(GROQ_API_KEY and "gsk_" in GROQ_API_KEY and "<" not in GROQ_API_KEY)
+    has_gemini = bool(client and GEMINI_API_KEY and "<" not in GEMINI_API_KEY and "lang-client" not in GEMINI_API_KEY)
+
+    if has_groq or has_gemini:
         try:
-            raw_json = get_raw_gemini_response(ocr_text, filename=filename)
+            raw_json = get_raw_llm_response(ocr_text, filename=filename)
             payable_data = json.loads(raw_json)
             grounded_payable, _ = verify_payable_grounding(payable_data, ocr_text)
             verify_structural_integrity(grounded_payable)
             return _matcher.resolve_payable(grounded_payable, text_context=ocr_text)
         except Exception as e:
             if not allow_fallback:
-                raise RuntimeError(f"Gemini API ({MODEL_NAME}) call failed: {e}") from e
-            print(f"Gemini API error ({e}). Explicit fallback allowed.", file=sys.stderr)
+                raise RuntimeError(f"LLM API Call Failed: {e}") from e
+            print(f"LLM API error ({e}). Explicit fallback allowed.", file=sys.stderr)
 
     if allow_fallback:
         payable_data = deterministic_extract_payable(ocr_text, filename=filename)
         grounded_payable, _ = verify_payable_grounding(payable_data, ocr_text)
         return _matcher.resolve_payable(grounded_payable, text_context=ocr_text)
-    
-    raise ValueError("No valid Gemini API key configured and allow_fallback=False.")
+
+    raise ValueError("No valid GROQ_API_KEY or GEMINI_API_KEY configured and allow_fallback=False.")
 
 
 from src.classifier import classify_document_text, classify_file
@@ -341,7 +400,6 @@ def process_document_file(pdf_or_txt_path: str | Path) -> dict:
     """Process a single document PDF or .txt into per-file Autodraft JSON payload with multi-document segmentation."""
     path = Path(pdf_or_txt_path)
 
-    # Get OCR text
     if path.suffix == ".pdf":
         pages = extract_text(str(path))
         full_ocr_text = "\n\n--- PAGE BREAK ---\n\n".join(pages)
@@ -350,7 +408,6 @@ def process_document_file(pdf_or_txt_path: str | Path) -> dict:
         full_ocr_text = path.read_text(encoding="utf-8", errors="ignore")
         file_name = path.stem + ".pdf"
 
-    # Pre-segmentation step for multi-document PDFs
     subdoc_texts = segment_document_text(full_ocr_text)
 
     payables = []

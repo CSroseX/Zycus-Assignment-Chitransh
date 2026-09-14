@@ -12,7 +12,9 @@ if hasattr(sys.stderr, 'reconfigure'):
 
 from erp import erp_book
 from src.classifier import classify_document_text
-from src.extractor import get_raw_gemini_response, MODEL_NAME, QuotaExhaustedError
+from src.extractor import get_raw_llm_response, GROQ_MODEL, MODEL_NAME, QuotaExhaustedError
+
+active_model = GROQ_MODEL if os.getenv("GROQ_API_KEY") else MODEL_NAME
 from src.grounding import verify_payable_grounding
 from src.segmenter import segment_document_text
 
@@ -54,11 +56,11 @@ for idx, seg_text in enumerate(subdocs, 1):
         print("    Document is declined non-payable. Skipping LLM extraction.")
         continue
 
-    # Step 2: Raw Gemini API Call
-    print(f"\n[2] RAW GEMINI ({MODEL_NAME}) JSON RESPONSE FOR {sub_label}:")
+    # Step 2: Raw LLM API Call
+    print(f"\n[2] RAW LLM ({active_model}) JSON RESPONSE FOR {sub_label}:")
     print("-" * 80)
     try:
-        raw_json_str = get_raw_gemini_response(seg_text, filename=f"{txt_path.stem}_subdoc{idx}.pdf")
+        raw_json_str = get_raw_llm_response(seg_text, filename=f"{txt_path.stem}_subdoc{idx}.pdf")
         print(raw_json_str)
         print("-" * 80)
     except QuotaExhaustedError as qe:

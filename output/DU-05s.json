@@ -1,0 +1,10 @@
+{
+  "file": "DU-05s.pdf",
+  "payables": [],
+  "declined": [
+    {
+      "doc_type": "ESTIMATE_QUOTE",
+      "reason": "NonPayableTitle(-100); TableStructure(+25); TaxID(+15); EntityParties(+10); FinancialTotal(+10)"
+    }
+  ]
+}
