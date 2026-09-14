@@ -12,9 +12,23 @@ if hasattr(sys.stderr, 'reconfigure'):
 
 from erp import erp_book
 from src.classifier import classify_document_text
-from src.extractor import get_raw_llm_response, GROQ_MODEL, MODEL_NAME, QuotaExhaustedError
+from src.extractor import (
+    get_raw_llm_response,
+    OPEN_ROUTER_MODEL,
+    GROQ_MODEL,
+    CLOUDFLARE_MODEL,
+    MODEL_NAME,
+    QuotaExhaustedError
+)
 
-active_model = GROQ_MODEL if os.getenv("GROQ_API_KEY") else MODEL_NAME
+if os.getenv("OPEN_ROUTER_API"):
+    active_model = f"OpenRouter ({OPEN_ROUTER_MODEL})"
+elif os.getenv("GROQ_API_KEY"):
+    active_model = f"Groq ({GROQ_MODEL})"
+elif os.getenv("CLOUDFLARE_WORKERS_AI"):
+    active_model = f"Cloudflare ({CLOUDFLARE_MODEL})"
+else:
+    active_model = f"Gemini ({MODEL_NAME})"
 from src.grounding import verify_payable_grounding
 from src.segmenter import segment_document_text
 
