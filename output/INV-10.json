@@ -1,10 +1,59 @@
 {
   "file": "INV-10.pdf",
-  "payables": [],
-  "declined": [
+  "payables": [
     {
-      "doc_type": "INVOICE",
-      "reason": "Extraction exception: Gemini API (gemini-3.5-flash) call failed: Gemini API Quota Exhausted (gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 43.253446188s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '43s'}]}}"
+      "invoice_number": "18533",
+      "invoice_date": "2026-03-25",
+      "due_date": "2026-04-24",
+      "invoice_type": "INVOICE",
+      "currency": "",
+      "supplier": {
+        "name": "Larkspur Print OU",
+        "supplier_id": "",
+        "address": "Jalan Ampang 60, Tallinn, Harju maakond, 10412",
+        "vat_id": "EE684837406967098266"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "EE001",
+        "location_code": "LOC_EE_001"
+      },
+      "payment_term_id": "Net_30",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "594.30",
+      "subtotal": "479.27",
+      "total_tax_amount": "115.03",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "VAT",
+          "tax_name": "Kiibemaks",
+          "tax_rate": "24.00",
+          "tax_amount": "115.03",
+          "tax_type_code": "EST_240_VAT"
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Toitlustus",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1.00",
+          "unit_price": "479.28",
+          "total": "479.28",
+          "discount": "-0.01",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
     }
-  ]
+  ],
+  "declined": []
 }

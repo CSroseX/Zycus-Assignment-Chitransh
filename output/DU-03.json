@@ -1,14 +1,229 @@
 {
   "file": "DU-03.pdf",
-  "payables": [],
-  "declined": [
+  "payables": [
     {
-      "doc_type": "INVOICE",
-      "reason": "Extraction exception: Gemini API (gemini-3.5-flash) call failed: Gemini API Quota Exhausted (gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 49.71984688s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '49s'}]}}"
+      "invoice_number": "0534",
+      "invoice_date": "2023-08-08",
+      "due_date": "2026-01-16",
+      "invoice_type": "INVOICE",
+      "currency": "USD",
+      "supplier": {
+        "name": "Blueharbor Logistics & Services",
+        "supplier_id": "",
+        "address": "Parnu mnt 18, 539775",
+        "vat_id": "M2-0029161-1"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "EE001",
+        "location_code": "LOC_EE_001"
+      },
+      "payment_term_id": "Net_60",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "1040.06",
+      "subtotal": "1040.06",
+      "total_tax_amount": "0.00",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "GST",
+          "tax_name": "0% GST on sales",
+          "tax_rate": "0.00%",
+          "tax_amount": "0.00",
+          "tax_type_code": "DE_000_RC"
+        }
+      ],
+      "line_items": [
+        {
+          "description": "International Freight",
+          "item_type": "GOODS",
+          "uom": "KG",
+          "quantity": "567.000",
+          "unit_price": "1.28",
+          "total": "725.76",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Origin Terminal Handling",
+          "item_type": "GOODS",
+          "uom": "KG",
+          "quantity": "567.000",
+          "unit_price": "0.10",
+          "total": "56.70",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Documentation Fee",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1.000",
+          "unit_price": "45.00",
+          "total": "45.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Delivery",
+          "item_type": "GOODS",
+          "uom": "KG",
+          "quantity": "567.000",
+          "unit_price": "0.04",
+          "total": "22.68",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Pick-up",
+          "item_type": "GOODS",
+          "uom": "KG",
+          "quantity": "567.000",
+          "unit_price": "0.18",
+          "total": "102.06",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Customs Export",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1.000",
+          "unit_price": "7.50",
+          "total": "7.50",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Origin Documentation",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1.000",
+          "unit_price": "15.00",
+          "total": "15.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Customs Import",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1.000",
+          "unit_price": "15.00",
+          "total": "15.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Carrier Manifest Filing",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1.000",
+          "unit_price": "5.00",
+          "total": "5.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Terminal Handling",
+          "item_type": "GOODS",
+          "uom": "KG",
+          "quantity": "567.000",
+          "unit_price": "0.08",
+          "total": "45.36",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
     },
     {
-      "doc_type": "INVOICE",
-      "reason": "Extraction exception: Gemini API (gemini-3.5-flash) call failed: Gemini API Quota Exhausted (gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 49.351447242s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '49s'}]}}"
+      "invoice_number": "2279433-82704896",
+      "invoice_date": "2025-11-12",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "Polvex Distribution GmbH & Co. KG",
+        "supplier_id": "",
+        "address": "Lindenstrasse 35, 20095 Hamburg, Germany",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "EE001",
+        "location_code": "LOC_EE_001"
+      },
+      "payment_term_id": "Net_14",
+      "po_number": "03153934",
+      "po_id": "",
+      "gross_total": "4,499.00",
+      "subtotal": "4,499.00",
+      "total_tax_amount": "722.76",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "GST",
+          "tax_name": "Goods and Services Tax",
+          "tax_rate": "",
+          "tax_amount": "722.76",
+          "tax_type_code": ""
+        }
+      ],
+      "line_items": [
+        {
+          "description": "PZH-AT",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "80",
+          "unit_price": "8.18",
+          "total": "4,499.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
     }
-  ]
+  ],
+  "declined": []
 }

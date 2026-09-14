@@ -3,14 +3,14 @@
   "payables": [
     {
       "invoice_number": "554701215",
-      "invoice_date": "2026-06-01",
+      "invoice_date": "2026-01-06",
       "due_date": "",
       "invoice_type": "INVOICE",
       "currency": "EUR",
       "supplier": {
         "name": "Novatek US LLC",
         "supplier_id": "",
-        "address": "Redwater Mobility BV\nAvenida Central 455\n1950 KRAAINEM\nBELGIUM",
+        "address": "Avenida Central 455, 1950 KRAAINEM, BELGIUM",
         "vat_id": "BE2480635349"
       },
       "buyer": {
@@ -21,8 +21,8 @@
       "payment_term_id": "",
       "po_number": "",
       "po_id": "",
-      "gross_total": "37534.94",
-      "subtotal": "37534.94",
+      "gross_total": "37,534.94",
+      "subtotal": "",
       "total_tax_amount": "",
       "discount_amount": "",
       "freight_charges": "",
@@ -45,7 +45,7 @@
           "taxes": []
         },
         {
-          "description": "REA DIAG, POLY CHAIN REACT ,",
+          "description": "REA DIAG, POLY CHAIN REACT.",
           "item_type": "GOODS",
           "uom": "PC",
           "quantity": "1",
@@ -100,7 +100,7 @@
           "description": "FILTIPURIF MACH PARTS, bTH,",
           "item_type": "GOODS",
           "uom": "PC",
-          "quantity": "",
+          "quantity": "1",
           "unit_price": "",
           "total": "762.94",
           "discount": "",
@@ -165,7 +165,7 @@
           "description": "[LTRAVIOLET LAMP",
           "item_type": "GOODS",
           "uom": "PC",
-          "quantity": "",
+          "quantity": "7",
           "unit_price": "",
           "total": "327.79",
           "discount": "",
@@ -204,7 +204,7 @@
           "description": "ELNDLEEBBN TERSIG",
           "item_type": "GOODS",
           "uom": "PC",
-          "quantity": "",
+          "quantity": "1",
           "unit_price": "",
           "total": "4359.50",
           "discount": "",
@@ -240,7 +240,7 @@
           "taxes": []
         },
         {
-          "description": "PRT ELEC IINSTRUMENT,902720",
+          "description": "PRT ELEC INSTRUMENT,902720",
           "item_type": "GOODS",
           "uom": "PC",
           "quantity": "8",
@@ -266,7 +266,7 @@
           "taxes": []
         },
         {
-          "description": "PT ELC INST , bT,902720/30/5",
+          "description": "PT ELC INST, bT,902720/30/5",
           "item_type": "GOODS",
           "uom": "EA",
           "quantity": "8",
@@ -279,7 +279,7 @@
           "taxes": []
         },
         {
-          "description": "PT ELC INST , bT,902720/30/5",
+          "description": "PT ELC INST, bT,902720/30/5",
           "item_type": "GOODS",
           "uom": "EA",
           "quantity": "6",
@@ -292,7 +292,7 @@
           "taxes": []
         },
         {
-          "description": "PT ELC INST , JT,902720/30/5",
+          "description": "PT ELC INST, JT,902720/30/5",
           "item_type": "GOODS",
           "uom": "PC",
           "quantity": "2",
@@ -308,14 +308,14 @@
     },
     {
       "invoice_number": "554701215",
-      "invoice_date": "2026-06-01",
+      "invoice_date": "2026-01-06",
       "due_date": "",
       "invoice_type": "INVOICE",
       "currency": "TRY",
       "supplier": {
         "name": "Novatek US: LLC",
         "supplier_id": "",
-        "address": "Redwater Mobility BV, Avenida Central 455, 1950 KRAAINEM, BELGIUM",
+        "address": "Avenida Central 455, 1950 KRAAINEM, BELGIUM",
         "vat_id": "BE2480635349"
       },
       "buyer": {
@@ -326,8 +326,53 @@
       "payment_term_id": "",
       "po_number": "5505419603/66691406",
       "po_id": "",
-      "gross_total": "1872.11",
-      "subtotal": "1872.11",
+      "gross_total": "1.872,11",
+      "subtotal": "1.872,11",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "Glutomatic",
+          "item_type": "GOODS",
+          "uom": "TRY",
+          "quantity": "1",
+          "unit_price": "1.872,11",
+          "total": "1.872,11",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    },
+    {
+      "invoice_number": "554701215",
+      "invoice_date": "2026-01-06",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "TRY",
+      "supplier": {
+        "name": "Novatek US: LLC",
+        "supplier_id": "",
+        "address": "Avenida Central 455, 1950 KRAAINEM, BELGIUM",
+        "vat_id": "BE2480635349"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "EE001",
+        "location_code": "LOC_EE_001"
+      },
+      "payment_term_id": "",
+      "po_number": "5505419505/5229132",
+      "po_id": "",
+      "gross_total": "1.628,16",
+      "subtotal": "1.628,16",
       "total_tax_amount": "0.00",
       "discount_amount": "0.00",
       "freight_charges": "0.00",
@@ -337,15 +382,656 @@
       "taxes": [],
       "line_items": [
         {
-          "description": "Ref. sample Glutomatic REA DIAG,POLY CHAIN REACT, Diagnostic or laboratory reagents on a backing, prepared diagnostic or laboratory reagents whether or not on a backing, whether or not put up in the form of kits; Other",
+          "description": "Vial Diffuser Molding",
           "item_type": "GOODS",
           "uom": "",
-          "quantity": "1",
-          "unit_price": "1872.11",
-          "total": "1872.11",
+          "quantity": "8",
+          "unit_price": "61.92",
+          "total": "495.36",
           "discount": "0.00",
           "discount_percentage": "0.00",
           "tax_rate": "0.00",
+          "tax_amount": "0.00",
+          "taxes": []
+        },
+        {
+          "description": "713 mm Black Plastic Screw Cap",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "8",
+          "unit_price": "73.46",
+          "total": "587.68",
+          "discount": "0.00",
+          "discount_percentage": "0.00",
+          "tax_rate": "0.00",
+          "tax_amount": "0.00",
+          "taxes": []
+        },
+        {
+          "description": "4 mL Clr Scr Vial 15 x 45 13-425 PER PC:",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "8",
+          "unit_price": "68.14",
+          "total": "545.12",
+          "discount": "0.00",
+          "discount_percentage": "0.00",
+          "tax_rate": "0.00",
+          "tax_amount": "0.00",
+          "taxes": []
+        }
+      ]
+    },
+    {
+      "invoice_number": "554701215",
+      "invoice_date": "2026-01-06",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "TRY",
+      "supplier": {
+        "name": "Novatek US: LLC",
+        "supplier_id": "",
+        "address": "Avenida Central 455, 1950 KRAAINEM, BELGIUM",
+        "vat_id": "BE2480635349"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "GH001",
+        "location_code": "LOC_GH_001"
+      },
+      "payment_term_id": "",
+      "po_number": "5505419825/5222652",
+      "po_id": "",
+      "gross_total": "",
+      "subtotal": "92.366,96",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "PFA-ST Nebulizer for prepFAST",
+          "item_type": "GOODS",
+          "uom": "TRY",
+          "quantity": "2",
+          "unit_price": "46.183.48",
+          "total": "92.366,96",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    },
+    {
+      "invoice_number": "554701215",
+      "invoice_date": "2026-01-06",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "TRY",
+      "supplier": {
+        "name": "Novatek US: LLC",
+        "supplier_id": "",
+        "address": "Avenida Central 455, 1950 KRAAINEM, BELGIUM",
+        "vat_id": "BE2480635349"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "GH001",
+        "location_code": "LOC_GH_001"
+      },
+      "payment_term_id": "",
+      "po_number": "5505419739/5229131",
+      "po_id": "",
+      "gross_total": "54.520,96",
+      "subtotal": "",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "Nickel Skimmer Cone for NexION",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "",
+          "unit_price": "4.896,42",
+          "total": "19.585,68",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "HyperSkimmer Cone for NexION",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "",
+          "unit_price": "3.033,16",
+          "total": "72.132,64",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Nickel Sampler Cone for NexION",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "",
+          "unit_price": "5.700,66",
+          "total": "22.802,64",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    },
+    {
+      "invoice_number": "554701215",
+      "invoice_date": "2026-01-06",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "TRY",
+      "supplier": {
+        "name": "Novatek US: LLC",
+        "supplier_id": "",
+        "address": "Avenida Central 455, 1950 KRAAINEM, BELGIUM",
+        "vat_id": "BE2480635349"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "GH001",
+        "location_code": "LOC_GH_001"
+      },
+      "payment_term_id": "",
+      "po_number": "5505416600/66690602",
+      "po_id": "",
+      "gross_total": "",
+      "subtotal": "16.500,40",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "OEM- Deuterium lamp",
+          "item_type": "GOODS",
+          "uom": "TRY",
+          "quantity": "1",
+          "unit_price": "16.500,40",
+          "total": "16.500,40",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    },
+    {
+      "invoice_number": "554701215",
+      "invoice_date": "2026-01-06",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "TRY",
+      "supplier": {
+        "name": "Novatek US: LLC",
+        "supplier_id": "",
+        "address": "Avenida Central 455, 1950 KRAAINEM, BELGIUM",
+        "vat_id": "BE2480635349"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "GH001",
+        "location_code": "LOC_GH_001"
+      },
+      "payment_term_id": "",
+      "po_number": "5505419906/5229766",
+      "po_id": "",
+      "gross_total": "8.202,20",
+      "subtotal": "8.202,20",
+      "total_tax_amount": "0.00",
+      "discount_amount": "0.00",
+      "freight_charges": "0.00",
+      "insurance_charges": "0.00",
+      "extra_charges": "0.00",
+      "excise_duties": "0.00",
+      "taxes": [
+        {
+          "tax_type": "",
+          "tax_name": "",
+          "tax_rate": "",
+          "tax_amount": "0.00",
+          "tax_type_code": ""
+        }
+      ],
+      "line_items": [
+        {
+          "description": "MPLC Concept Holder, 10 cm",
+          "item_type": "GOODS",
+          "uom": "KG",
+          "quantity": "1",
+          "unit_price": "8.202,20",
+          "total": "8.202,20",
+          "discount": "0.00",
+          "discount_percentage": "0.00",
+          "tax_rate": "",
+          "tax_amount": "0.00",
+          "taxes": []
+        }
+      ]
+    },
+    {
+      "invoice_number": "554701215",
+      "invoice_date": "2026-01-06",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "TRY",
+      "supplier": {
+        "name": "Novatek US: LLC",
+        "supplier_id": "",
+        "address": "Avenida Central 455, 1950 KRAAINEM, BELGIUM",
+        "vat_id": "BE2480635349"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "GH001",
+        "location_code": "LOC_GH_001"
+      },
+      "payment_term_id": "",
+      "po_number": "5505419741/5229612",
+      "po_id": "",
+      "gross_total": "34.982,89",
+      "subtotal": "",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "Titanium 1,000 ug/mL HZOfTr HF ICP 125mL",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "360.80",
+          "total": "360.80",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Hybrid XLT 3-Slot Organics Torch Avio",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "2",
+          "unit_price": "710.38",
+          "total": "",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "PFA-ST MicroFiow Nebullzer for Optima",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "713.15",
+          "total": "713.15",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "STD PHOSPHORUS 1000 HGMML 125ML",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "707.46",
+          "total": "707.46",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    },
+    {
+      "invoice_number": "554701215",
+      "invoice_date": "2026-01-06",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "TRY",
+      "supplier": {
+        "name": "Novatek US: LLC",
+        "supplier_id": "",
+        "address": "Avenida Central 455, 1950 KRAAINEM, BELGIUM",
+        "vat_id": "BE2480635349"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "GH001",
+        "location_code": "LOC_GH_001"
+      },
+      "payment_term_id": "",
+      "po_number": "5505418938/66691189",
+      "po_id": "",
+      "gross_total": "",
+      "subtotal": "22.966,44",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "KIT SQ8 HEADAMP",
+          "item_type": "GOODS",
+          "uom": "Boxes",
+          "quantity": "2",
+          "unit_price": "11.483,22",
+          "total": "22.966,44",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    },
+    {
+      "invoice_number": "554701215",
+      "invoice_date": "2026-01-06",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "TRY",
+      "supplier": {
+        "name": "Novatek US: LLC",
+        "supplier_id": "",
+        "address": "Avenida Central 455, 1950 KRAAINEM, BELGIUM",
+        "vat_id": "BE2480635349"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "GH001",
+        "location_code": "LOC_GH_001"
+      },
+      "payment_term_id": "",
+      "po_number": "5505420246/66691631",
+      "po_id": "",
+      "gross_total": "",
+      "subtotal": "21.865,82",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "BRAZE ASSY ASXL CHARCOAL TRAP",
+          "item_type": "GOODS",
+          "uom": "KG",
+          "quantity": "2",
+          "unit_price": "10.932,91",
+          "total": "21.865,82",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    },
+    {
+      "invoice_number": "554701215",
+      "invoice_date": "2026-01-06",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "TRY",
+      "supplier": {
+        "name": "Novatek US: LLC",
+        "supplier_id": "",
+        "address": "Avenida Central 455, 1950 KRAAINEM, BELGIUM",
+        "vat_id": "BE2480635349"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "GH001",
+        "location_code": "LOC_GH_001"
+      },
+      "payment_term_id": "",
+      "po_number": "5505417511/5228031",
+      "po_id": "",
+      "gross_total": "1.049.579,86",
+      "subtotal": "1.049.579,86",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "Avio 220 Max Base Instrument",
+          "item_type": "GOODS",
+          "uom": "TRY",
+          "quantity": "1",
+          "unit_price": "1.049.579,86",
+          "total": "1.049.579,86",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    },
+    {
+      "invoice_number": "554701215",
+      "invoice_date": "2026-01-06",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "TRY",
+      "supplier": {
+        "name": "Novatek US: LLC",
+        "supplier_id": "",
+        "address": "Avenida Central 455, 1950 KRAAINEM, BELGIUM",
+        "vat_id": "BE2480635349"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "GH001",
+        "location_code": "LOC_GH_001"
+      },
+      "payment_term_id": "",
+      "po_number": "5505419356/5229129",
+      "po_id": "",
+      "gross_total": "",
+      "subtotal": "5.838,05",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "IOOOuL wide bore tips , QTY 2304",
+          "item_type": "GOODS",
+          "uom": "TRY",
+          "quantity": "2304",
+          "unit_price": "5.838,05",
+          "total": "5.838,05",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    },
+    {
+      "invoice_number": "554701215",
+      "invoice_date": "2026-01-06",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "TRY",
+      "supplier": {
+        "name": "Novatek US: LLC",
+        "supplier_id": "",
+        "address": "Avenida Central 455, 1950 KRAAINEM, BELGIUM",
+        "vat_id": "BE2480635349"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "GH001",
+        "location_code": "LOC_GH_001"
+      },
+      "payment_term_id": "",
+      "po_number": "5505419742/5229609",
+      "po_id": "",
+      "gross_total": "18.746,97",
+      "subtotal": "18.746,97",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "ELP UV Lamp Complete",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "13.334,17",
+          "total": "13.334,17",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Tungsten Halogen Lamp Assembly",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "2",
+          "unit_price": "2.706,40",
+          "total": "5.412,80",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    },
+    {
+      "invoice_number": "554701215",
+      "invoice_date": "2026-01-06",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "TRY",
+      "supplier": {
+        "name": "Novatek US: LLC",
+        "supplier_id": "",
+        "address": "Avenida Central 455, 1950 KRAAINEM, BELGIUM",
+        "vat_id": "BE2480635349"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "GH001",
+        "location_code": "LOC_GH_001"
+      },
+      "payment_term_id": "",
+      "po_number": "5505420084",
+      "po_id": "",
+      "gross_total": "532.370,06",
+      "subtotal": "532.370,06",
+      "total_tax_amount": "0.00",
+      "discount_amount": "0.00",
+      "freight_charges": "0.00",
+      "insurance_charges": "0.00",
+      "extra_charges": "0.00",
+      "excise_duties": "0.00",
+      "taxes": [
+        {
+          "tax_type": "",
+          "tax_name": "",
+          "tax_rate": "",
+          "tax_amount": "0.00",
+          "tax_type_code": ""
+        }
+      ],
+      "line_items": [
+        {
+          "description": "GLUTOMATIC 2000 100-240V 50-60Hz",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "239.833,40",
+          "total": "239.833,40",
+          "discount": "0.00",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "0.00",
+          "taxes": []
+        },
+        {
+          "description": "CENTRIFUG 2010 100-240V 50-60HZ",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "73.083,50",
+          "total": "73.083,50",
+          "discount": "0.00",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "0.00",
+          "taxes": []
+        },
+        {
+          "description": "LactoScope 300",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "219.453,16",
+          "total": "219.453,16",
+          "discount": "0.00",
+          "discount_percentage": "",
+          "tax_rate": "",
           "tax_amount": "0.00",
           "taxes": []
         }
@@ -355,55 +1041,7 @@
   "declined": [
     {
       "doc_type": "INVOICE",
-      "reason": "Extraction exception: Gemini API (gemini-3.5-flash) call failed: Gemini API Quota Exhausted (gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 54.207950344s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}"
-    },
-    {
-      "doc_type": "INVOICE",
-      "reason": "Extraction exception: Gemini API (gemini-3.5-flash) call failed: Gemini API Quota Exhausted (gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 53.862503414s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53s'}]}}"
-    },
-    {
-      "doc_type": "INVOICE",
-      "reason": "Extraction exception: Gemini API (gemini-3.5-flash) call failed: Gemini API Quota Exhausted (gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 53.490911076s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53s'}]}}"
-    },
-    {
-      "doc_type": "INVOICE",
-      "reason": "Extraction exception: Gemini API (gemini-3.5-flash) call failed: Gemini API Quota Exhausted (gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 53.15690522s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53s'}]}}"
-    },
-    {
-      "doc_type": "INVOICE",
-      "reason": "Extraction exception: Gemini API (gemini-3.5-flash) call failed: Gemini API Quota Exhausted (gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 52.792714555s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}"
-    },
-    {
-      "doc_type": "INVOICE",
-      "reason": "Extraction exception: Gemini API (gemini-3.5-flash) call failed: Gemini API Quota Exhausted (gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 52.436364491s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}"
-    },
-    {
-      "doc_type": "INVOICE",
-      "reason": "Extraction exception: Gemini API (gemini-3.5-flash) call failed: Gemini API Quota Exhausted (gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 52.096690826s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}"
-    },
-    {
-      "doc_type": "INVOICE",
-      "reason": "Extraction exception: Gemini API (gemini-3.5-flash) call failed: Gemini API Quota Exhausted (gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 51.735887654s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '51s'}]}}"
-    },
-    {
-      "doc_type": "INVOICE",
-      "reason": "Extraction exception: Gemini API (gemini-3.5-flash) call failed: Gemini API Quota Exhausted (gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 51.400250946s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '51s'}]}}"
-    },
-    {
-      "doc_type": "INVOICE",
-      "reason": "Extraction exception: Gemini API (gemini-3.5-flash) call failed: Gemini API Quota Exhausted (gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 51.11307903s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '51s'}]}}"
-    },
-    {
-      "doc_type": "INVOICE",
-      "reason": "Extraction exception: Gemini API (gemini-3.5-flash) call failed: Gemini API Quota Exhausted (gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 50.743521882s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '50s'}]}}"
-    },
-    {
-      "doc_type": "INVOICE",
-      "reason": "Extraction exception: Gemini API (gemini-3.5-flash) call failed: Gemini API Quota Exhausted (gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 50.393065202s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '50s'}]}}"
-    },
-    {
-      "doc_type": "INVOICE",
-      "reason": "Extraction exception: Gemini API (gemini-3.5-flash) call failed: Gemini API Quota Exhausted (gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 50.102014635s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '50s'}]}}"
+      "reason": "Extraction failed: LLM API Call Failed: Unterminated string starting at: line 1 column 49 (char 48)"
     }
   ]
 }

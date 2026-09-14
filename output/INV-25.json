@@ -1,10 +1,85 @@
 {
   "file": "INV-25.pdf",
-  "payables": [],
-  "declined": [
+  "payables": [
     {
-      "doc_type": "INVOICE",
-      "reason": "Extraction exception: Gemini API (gemini-3.5-flash) call failed: Gemini API Quota Exhausted (gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\\nPlease retry in 40.105657814s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '40s'}]}}"
+      "invoice_number": "FAC A98/712",
+      "invoice_date": "2026-04-13",
+      "due_date": "2026-05-13",
+      "invoice_type": "PAYMENT CREDIT",
+      "currency": "EUR",
+      "supplier": {
+        "name": "Fairmont Services LDA",
+        "supplier_id": "",
+        "address": "High Street 34, 1000-137 LISBOA",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "EE001",
+        "location_code": "LOC_EE_001"
+      },
+      "payment_term_id": "Net_30",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "176.00 EUR",
+      "subtotal": "143.09 EUR",
+      "total_tax_amount": "32.91 EUR",
+      "discount_amount": "0.00 EUR",
+      "freight_charges": "0.00 EUR",
+      "insurance_charges": "0.00 EUR",
+      "extra_charges": "0.00 EUR",
+      "excise_duties": "0.00 EUR",
+      "taxes": [
+        {
+          "tax_type": "VAT",
+          "tax_name": "23%",
+          "tax_rate": "23%",
+          "tax_amount": "32.91 EUR",
+          "tax_type_code": "PT_230_IVA"
+        }
+      ],
+      "line_items": [
+        {
+          "description": "FOT /IMPRESSAO A4 CORES",
+          "item_type": "GOODS",
+          "uom": "A4",
+          "quantity": "0.400",
+          "unit_price": "160.00 EUR",
+          "total": "160.00 EUR",
+          "discount": "0.00 EUR",
+          "discount_percentage": "0.00%",
+          "tax_rate": "23%",
+          "tax_amount": "32.91 EUR",
+          "taxes": []
+        },
+        {
+          "description": "FOLHA  80g",
+          "item_type": "GOODS",
+          "uom": "A4",
+          "quantity": "0.000",
+          "unit_price": "0.00 EUR",
+          "total": "0.00 EUR",
+          "discount": "0.00 EUR",
+          "discount_percentage": "0.00%",
+          "tax_rate": "23%",
+          "tax_amount": "0.00 EUR",
+          "taxes": []
+        },
+        {
+          "description": "FOLHA   120g",
+          "item_type": "GOODS",
+          "uom": "A4",
+          "quantity": "0.080",
+          "unit_price": "16.00 EUR",
+          "total": "16.00 EUR",
+          "discount": "0.00 EUR",
+          "discount_percentage": "0.00%",
+          "tax_rate": "23%",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
     }
-  ]
+  ],
+  "declined": []
 }

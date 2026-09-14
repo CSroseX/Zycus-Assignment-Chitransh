@@ -1,10 +1,72 @@
 {
   "file": "INV-01.pdf",
-  "payables": [],
-  "declined": [
+  "payables": [
     {
-      "doc_type": "INVOICE",
-      "reason": "Extraction exception: LLM API Call Failed: Groq API Call Failed: HTTP 404 - {\"error\":{\"message\":\"The model `qwen/qwen3.8-27b-on_demand` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+      "invoice_number": "852566",
+      "invoice_date": "2026-02-02",
+      "due_date": "2026-02-12",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "Northwind Operations OU",
+        "supplier_id": "",
+        "address": "Lindenstrasse 15, 10134 Estonia",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "EE001",
+        "location_code": "LOC_EE_001"
+      },
+      "payment_term_id": "Net_10",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "438.00",
+      "subtotal": "438.00",
+      "total_tax_amount": "0.00",
+      "discount_amount": "0.00",
+      "freight_charges": "0.00",
+      "insurance_charges": "0.00",
+      "extra_charges": "0.00",
+      "excise_duties": "0.00",
+      "taxes": [
+        {
+          "tax_type": "VAT",
+          "tax_name": "",
+          "tax_rate": "0.00",
+          "tax_amount": "0.00",
+          "tax_type_code": "DE_000_RC"
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Projektmanagement Nachberechnung aus November",
+          "item_type": "GOODS",
+          "uom": "Std.",
+          "quantity": "4",
+          "unit_price": "73.00",
+          "total": "292.00",
+          "discount": "0.00",
+          "discount_percentage": "0.00",
+          "tax_rate": "0.00",
+          "tax_amount": "0.00",
+          "taxes": []
+        },
+        {
+          "description": "Projektmanagement Nachberechnung aus Dezember",
+          "item_type": "GOODS",
+          "uom": "Std.",
+          "quantity": "2",
+          "unit_price": "73.00",
+          "total": "146.00",
+          "discount": "0.00",
+          "discount_percentage": "0.00",
+          "tax_rate": "0.00",
+          "tax_amount": "0.00",
+          "taxes": []
+        }
+      ]
     }
-  ]
+  ],
+  "declined": []
 }
