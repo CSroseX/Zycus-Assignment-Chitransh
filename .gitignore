@@ -2,5 +2,4 @@ info.txt
 implementation_plan.md
 .env
 __pycache__/
-DESIGN.md
 .DS_Store

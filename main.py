@@ -31,7 +31,7 @@ from src.ocr_engine import extract_text
 from src.segmenter import segment_document_text
 
 
-def process_all_documents(input_dir: str | Path = "documents", output_dir: str | Path = "output") -> None:
+def process_all_documents(input_dir: str | Path = "documents", output_dir: str | Path = "output", only_files: list[str] | None = None) -> None:
     in_path = Path(input_dir)
     out_path = Path(output_dir)
     out_path.mkdir(parents=True, exist_ok=True)
@@ -40,6 +40,10 @@ def process_all_documents(input_dir: str | Path = "documents", output_dir: str |
         pdf_files = [in_path]
     else:
         pdf_files = sorted(list(in_path.glob("*.pdf")))
+
+    if only_files:
+        targets = {f.replace(".pdf", "").strip() for f in only_files}
+        pdf_files = [p for p in pdf_files if p.stem in targets or p.name in targets]
 
     print("=" * 80, flush=True)
     print(f"=== ZYCUS BOOKABLE PAYABLE PIPELINE: PROCESSING {len(pdf_files)} PDF(S) ===", flush=True)
@@ -78,14 +82,15 @@ def process_all_documents(input_dir: str | Path = "documents", output_dir: str |
             
             # STEP 3: Classification
             class_res = classify_document_text(seg_text, filename=sub_label)
+            conf_val = getattr(class_res, 'confidence', getattr(class_res, 'score', 1.0))
             print(f"\n  >>> Sub-Doc {s_idx}/{len(subdoc_texts)} [{sub_label}]", flush=True)
-            print(f"  [STEP 3: CLASSIFICATION]         -> Payable: {class_res.is_payable} | Type: {class_res.doc_type} (Score: {class_res.score})", flush=True)
+            print(f"  [STEP 3: CLASSIFICATION]         -> Payable: {class_res.is_payable} | Type: {class_res.doc_type} (Confidence: {conf_val:.2f})", flush=True)
 
             if class_res.is_payable:
                 try:
                     # STEP 4 & STEP 5: Extraction, Grounding & Master Data Matching
-                    print(f"  [STEP 4: AI EXTRACTION & GROUNDING] -> Sending OCR text to Groq API...", flush=True)
-                    payable = extract_payable_from_text(seg_text, filename=sub_label, allow_fallback=False)
+                    print(f"  [STEP 4: AI EXTRACTION & GROUNDING] -> Sending OCR text to LLM API...", flush=True)
+                    payable = extract_payable_from_text(seg_text, filename=sub_label, allow_fallback=True)
                     if class_res.doc_type == "CREDIT_MEMO":
                         payable["invoice_type"] = "CREDIT_MEMO"
                     payables.append(payable)
@@ -130,6 +135,19 @@ def process_all_documents(input_dir: str | Path = "documents", output_dir: str |
 
 
 if __name__ == "__main__":
-    target_dir = sys.argv[1] if len(sys.argv) > 1 else "documents"
-    process_all_documents(target_dir)
+    target_dir = "documents"
+    only_list = None
+    args = sys.argv[1:]
+    idx = 0
+    while idx < len(args):
+        arg = args[idx]
+        if arg == "--only" and idx + 1 < len(args):
+            only_list = [f.strip() for f in args[idx+1].split(",") if f.strip()]
+            idx += 2
+        elif not arg.startswith("--"):
+            target_dir = arg
+            idx += 1
+        else:
+            idx += 1
+    process_all_documents(target_dir, only_files=only_list)
 
