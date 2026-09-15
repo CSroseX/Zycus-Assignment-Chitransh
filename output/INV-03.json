@@ -21,9 +21,9 @@
       "payment_term_id": "Net_14",
       "po_number": "PO-ZA218-81-057014",
       "po_id": "",
-      "gross_total": "8,550.00",
-      "subtotal": "7,434.78",
-      "total_tax_amount": "1,115.22",
+      "gross_total": "8550.00",
+      "subtotal": "7434.78",
+      "total_tax_amount": "1115.22",
       "discount_amount": "0.00",
       "freight_charges": "0.00",
       "insurance_charges": "0.00",
@@ -34,22 +34,22 @@
           "tax_type": "VAT",
           "tax_name": "VAT",
           "tax_rate": "15.00",
-          "tax_amount": "1,115.22",
+          "tax_amount": "1115.22",
           "tax_type_code": "ZAF_150_VAT"
         }
       ],
       "line_items": [
         {
           "description": "Contract Office cleaning Contract",
-          "item_type": "GOODS",
+          "item_type": "SERVICE",
           "uom": "",
           "quantity": "1.00",
-          "unit_price": "7,434.78",
-          "total": "7,434.78",
+          "unit_price": "7434.78",
+          "total": "7434.78",
           "discount": "0.00",
           "discount_percentage": "0.00",
-          "tax_rate": "15.00",
-          "tax_amount": "1,115.22",
+          "tax_rate": "",
+          "tax_amount": "",
           "taxes": []
         }
       ]

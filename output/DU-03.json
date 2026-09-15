@@ -10,7 +10,7 @@
       "supplier": {
         "name": "Blueharbor Logistics & Services",
         "supplier_id": "",
-        "address": "Parnu mnt 18, 539775",
+        "address": "Changi Airfreight Centre, Cargo Agents Building E, Gartenweg 7, 819834 Singapore",
         "vat_id": "M2-0029161-1"
       },
       "buyer": {
@@ -29,21 +29,13 @@
       "insurance_charges": "",
       "extra_charges": "",
       "excise_duties": "",
-      "taxes": [
-        {
-          "tax_type": "GST",
-          "tax_name": "0% GST on sales",
-          "tax_rate": "0.00%",
-          "tax_amount": "0.00",
-          "tax_type_code": "DE_000_RC"
-        }
-      ],
+      "taxes": [],
       "line_items": [
         {
           "description": "International Freight",
-          "item_type": "GOODS",
+          "item_type": "FREIGHT",
           "uom": "KG",
-          "quantity": "567.000",
+          "quantity": "567.00",
           "unit_price": "1.28",
           "total": "725.76",
           "discount": "",
@@ -54,9 +46,9 @@
         },
         {
           "description": "Origin Terminal Handling",
-          "item_type": "GOODS",
+          "item_type": "FREIGHT",
           "uom": "KG",
-          "quantity": "567.000",
+          "quantity": "567.00",
           "unit_price": "0.10",
           "total": "56.70",
           "discount": "",
@@ -67,9 +59,9 @@
         },
         {
           "description": "Documentation Fee",
-          "item_type": "GOODS",
+          "item_type": "SERVICE",
           "uom": "EA",
-          "quantity": "1.000",
+          "quantity": "1.00",
           "unit_price": "45.00",
           "total": "45.00",
           "discount": "",
@@ -80,9 +72,9 @@
         },
         {
           "description": "Delivery",
-          "item_type": "GOODS",
+          "item_type": "FREIGHT",
           "uom": "KG",
-          "quantity": "567.000",
+          "quantity": "567.00",
           "unit_price": "0.04",
           "total": "22.68",
           "discount": "",
@@ -93,9 +85,9 @@
         },
         {
           "description": "Pick-up",
-          "item_type": "GOODS",
+          "item_type": "FREIGHT",
           "uom": "KG",
-          "quantity": "567.000",
+          "quantity": "567.00",
           "unit_price": "0.18",
           "total": "102.06",
           "discount": "",
@@ -106,9 +98,9 @@
         },
         {
           "description": "Customs Export",
-          "item_type": "GOODS",
+          "item_type": "SERVICE",
           "uom": "EA",
-          "quantity": "1.000",
+          "quantity": "1.00",
           "unit_price": "7.50",
           "total": "7.50",
           "discount": "",
@@ -119,9 +111,9 @@
         },
         {
           "description": "Origin Documentation",
-          "item_type": "GOODS",
+          "item_type": "SERVICE",
           "uom": "EA",
-          "quantity": "1.000",
+          "quantity": "1.00",
           "unit_price": "15.00",
           "total": "15.00",
           "discount": "",
@@ -132,9 +124,9 @@
         },
         {
           "description": "Customs Import",
-          "item_type": "GOODS",
+          "item_type": "SERVICE",
           "uom": "EA",
-          "quantity": "1.000",
+          "quantity": "1.00",
           "unit_price": "15.00",
           "total": "15.00",
           "discount": "",
@@ -145,9 +137,9 @@
         },
         {
           "description": "Carrier Manifest Filing",
-          "item_type": "GOODS",
+          "item_type": "SERVICE",
           "uom": "EA",
-          "quantity": "1.000",
+          "quantity": "1.00",
           "unit_price": "5.00",
           "total": "5.00",
           "discount": "",
@@ -158,9 +150,9 @@
         },
         {
           "description": "Terminal Handling",
-          "item_type": "GOODS",
+          "item_type": "FREIGHT",
           "uom": "KG",
-          "quantity": "567.000",
+          "quantity": "567.00",
           "unit_price": "0.08",
           "total": "45.36",
           "discount": "",
@@ -173,8 +165,8 @@
     },
     {
       "invoice_number": "2279433-82704896",
-      "invoice_date": "2025-11-12",
-      "due_date": "",
+      "invoice_date": "2025-11-13",
+      "due_date": "2025-11-17",
       "invoice_type": "INVOICE",
       "currency": "EUR",
       "supplier": {
@@ -191,35 +183,27 @@
       "payment_term_id": "Net_14",
       "po_number": "03153934",
       "po_id": "",
-      "gross_total": "4,499.00",
-      "subtotal": "4,499.00",
+      "gross_total": "4499.00",
+      "subtotal": "4499.00",
       "total_tax_amount": "722.76",
-      "discount_amount": "",
-      "freight_charges": "",
-      "insurance_charges": "",
-      "extra_charges": "",
-      "excise_duties": "",
-      "taxes": [
-        {
-          "tax_type": "GST",
-          "tax_name": "Goods and Services Tax",
-          "tax_rate": "",
-          "tax_amount": "722.76",
-          "tax_type_code": ""
-        }
-      ],
+      "discount_amount": "0.00",
+      "freight_charges": "0.00",
+      "insurance_charges": "0.00",
+      "extra_charges": "0.00",
+      "excise_duties": "0.00",
+      "taxes": [],
       "line_items": [
         {
-          "description": "PZH-AT",
+          "description": "NOVODUR PZH-AT",
           "item_type": "GOODS",
           "uom": "",
-          "quantity": "80",
+          "quantity": "567.00",
           "unit_price": "8.18",
-          "total": "4,499.00",
-          "discount": "",
-          "discount_percentage": "",
+          "total": "4499.00",
+          "discount": "0.00",
+          "discount_percentage": "0.00",
           "tax_rate": "",
-          "tax_amount": "",
+          "tax_amount": "722.76",
           "taxes": []
         }
       ]

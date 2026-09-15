@@ -3,7 +3,7 @@
   "payables": [
     {
       "invoice_number": "5i8675/02/467",
-      "invoice_date": "2569-05-05",
+      "invoice_date": "2026-05-05",
       "due_date": "",
       "invoice_type": "INVOICE",
       "currency": "THB",
@@ -21,8 +21,8 @@
       "payment_term_id": "",
       "po_number": "",
       "po_id": "",
-      "gross_total": "8,397.36",
-      "subtotal": "7,200.00",
+      "gross_total": "8161.92",
+      "subtotal": "7200.00",
       "total_tax_amount": "549.36",
       "discount_amount": "",
       "freight_charges": "",
@@ -33,16 +33,16 @@
         {
           "tax_type": "VAT",
           "tax_name": "VAT",
-          "tax_rate": "7%",
+          "tax_rate": "7.00",
           "tax_amount": "549.36",
           "tax_type_code": "DE_070_VAT"
         },
         {
           "tax_type": "WITHHOLDING TAX",
           "tax_name": "WITHHOLDING TAX",
-          "tax_rate": "3%",
-          "tax_amount": "235.44",
-          "tax_type_code": "TH_WHT_003"
+          "tax_rate": "",
+          "tax_amount": "-235.44",
+          "tax_type_code": ""
         }
       ],
       "line_items": [
@@ -50,9 +50,22 @@
           "description": "Stalit 2 Units X6 Davs",
           "item_type": "GOODS",
           "uom": "",
-          "quantity": "12",
+          "quantity": "12.00",
           "unit_price": "600.00",
-          "total": "7,200.00",
+          "total": "7200.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "MANAGEMENT FEE",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1.00",
+          "unit_price": "648.00",
+          "total": "648.00",
           "discount": "",
           "discount_percentage": "",
           "tax_rate": "",

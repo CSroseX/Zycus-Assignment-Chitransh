@@ -10,7 +10,7 @@
       "supplier": {
         "name": "Northwind Services UK Ltd",
         "supplier_id": "",
-        "address": "Rua do Ouro 175, Taper Studio, London, SE1 4GT",
+        "address": "Znd Floor, Rua do Ouro 175, London, SE1 4GT",
         "vat_id": "474927490"
       },
       "buyer": {
@@ -19,62 +19,54 @@
         "location_code": "LOC_GB_001"
       },
       "payment_term_id": "Net_30",
-      "po_number": "",
+      "po_number": "June 2026",
       "po_id": "",
-      "gross_total": "29,253.72",
+      "gross_total": "29253.72",
       "subtotal": "",
-      "total_tax_amount": "3,211.04",
+      "total_tax_amount": "3211.04",
       "discount_amount": "0.00",
       "freight_charges": "0.00",
       "insurance_charges": "0.00",
       "extra_charges": "0.00",
       "excise_duties": "0.00",
-      "taxes": [
-        {
-          "tax_type": "VAT",
-          "tax_name": "20%",
-          "tax_rate": "20%",
-          "tax_amount": "3,211.04",
-          "tax_type_code": "GB_200_VAT"
-        }
-      ],
+      "taxes": [],
       "line_items": [
         {
           "description": "Management Fee for June 2026",
-          "item_type": "GOODS",
+          "item_type": "SERVICE",
           "uom": "",
           "quantity": "1.00",
-          "unit_price": "14,620.18",
-          "total": "14,620.18",
+          "unit_price": "14620.18",
+          "total": "14620.18",
           "discount": "0.00",
           "discount_percentage": "0.00",
-          "tax_rate": "20%",
+          "tax_rate": "20.00",
           "tax_amount": "",
           "taxes": []
         },
         {
           "description": "Business Rates for June 2026",
-          "item_type": "GOODS",
+          "item_type": "SERVICE",
           "uom": "",
           "quantity": "1.00",
-          "unit_price": "9,987.50",
-          "total": "9,987.50",
+          "unit_price": "9987.50",
+          "total": "9987.50",
           "discount": "0.00",
           "discount_percentage": "0.00",
-          "tax_rate": "",
+          "tax_rate": "0.00",
           "tax_amount": "0.00",
           "taxes": []
         },
         {
           "description": "Utilities for June 2026",
-          "item_type": "GOODS",
+          "item_type": "SERVICE",
           "uom": "",
           "quantity": "1.00",
-          "unit_price": "1,435.00",
-          "total": "1,435.00",
+          "unit_price": "1435.00",
+          "total": "1435.00",
           "discount": "0.00",
           "discount_percentage": "0.00",
-          "tax_rate": "20%",
+          "tax_rate": "20.00",
           "tax_amount": "",
           "taxes": []
         }

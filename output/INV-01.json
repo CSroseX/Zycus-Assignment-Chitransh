@@ -11,7 +11,7 @@
         "name": "Northwind Operations OU",
         "supplier_id": "",
         "address": "Lindenstrasse 15, 10134 Estonia",
-        "vat_id": ""
+        "vat_id": "EE398766194"
       },
       "buyer": {
         "company_code": "BOLTGROUP",
@@ -29,21 +29,13 @@
       "insurance_charges": "0.00",
       "extra_charges": "0.00",
       "excise_duties": "0.00",
-      "taxes": [
-        {
-          "tax_type": "VAT",
-          "tax_name": "",
-          "tax_rate": "0.00",
-          "tax_amount": "0.00",
-          "tax_type_code": "DE_000_RC"
-        }
-      ],
+      "taxes": [],
       "line_items": [
         {
           "description": "Projektmanagement Nachberechnung aus November",
-          "item_type": "GOODS",
+          "item_type": "SERVICE",
           "uom": "Std.",
-          "quantity": "4",
+          "quantity": "4.00",
           "unit_price": "73.00",
           "total": "292.00",
           "discount": "0.00",
@@ -54,9 +46,9 @@
         },
         {
           "description": "Projektmanagement Nachberechnung aus Dezember",
-          "item_type": "GOODS",
+          "item_type": "SERVICE",
           "uom": "Std.",
-          "quantity": "2",
+          "quantity": "2.00",
           "unit_price": "73.00",
           "total": "146.00",
           "discount": "0.00",

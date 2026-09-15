@@ -8,10 +8,10 @@
       "invoice_type": "CREDIT_MEMO",
       "currency": "EUR",
       "supplier": {
-        "name": "Northwind Operations OU",
+        "name": "Tavolo OU",
         "supplier_id": "",
         "address": "Rua do Ouro 15, 10134 Kesklinna, Tallinn, Harju maakond, Eesti",
-        "vat_id": ""
+        "vat_id": "78885507"
       },
       "buyer": {
         "company_code": "BOLTGROUP",
@@ -21,19 +21,19 @@
       "payment_term_id": "Monthly_in_advance",
       "po_number": "",
       "po_id": "",
-      "gross_total": "-400.00",
-      "subtotal": "-400.00",
-      "total_tax_amount": "",
-      "discount_amount": "",
-      "freight_charges": "",
-      "insurance_charges": "",
-      "extra_charges": "",
-      "excise_duties": "",
+      "gross_total": "400.00",
+      "subtotal": "327.87",
+      "total_tax_amount": "72.13",
+      "discount_amount": "0.00",
+      "freight_charges": "0.00",
+      "insurance_charges": "0.00",
+      "extra_charges": "0.00",
+      "excise_duties": "0.00",
       "taxes": [
         {
           "tax_type": "VAT",
-          "tax_name": "km-ta 22%",
-          "tax_rate": "22%",
+          "tax_name": "KM 22%",
+          "tax_rate": "22.00",
           "tax_amount": "72.13",
           "tax_type_code": "EST_220_VAT"
         }
@@ -42,12 +42,12 @@
         {
           "description": "Toitlustamine Tavolo",
           "item_type": "GOODS",
-          "uom": "",
-          "quantity": "1 (tk)",
+          "uom": "tk",
+          "quantity": "1.00",
           "unit_price": "327.87",
           "total": "327.87",
-          "discount": "22",
-          "discount_percentage": "22%",
+          "discount": "0.00",
+          "discount_percentage": "0.00",
           "tax_rate": "",
           "tax_amount": "",
           "taxes": []

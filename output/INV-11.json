@@ -10,7 +10,7 @@
       "supplier": {
         "name": "Northwind Operations OU",
         "supplier_id": "",
-        "address": "Parnu mnt 10, Tallinn",
+        "address": "Lindenstrasse 15, 10134 TALLINN",
         "vat_id": "EE398766194"
       },
       "buyer": {
@@ -23,7 +23,7 @@
       "po_id": "",
       "gross_total": "83.21",
       "subtotal": "",
-      "total_tax_amount": "",
+      "total_tax_amount": "16.11",
       "discount_amount": "",
       "freight_charges": "",
       "insurance_charges": "",
@@ -32,32 +32,19 @@
       "taxes": [
         {
           "tax_type": "VAT",
-          "tax_name": "",
-          "tax_rate": "",
-          "tax_amount": "",
-          "tax_type_code": ""
+          "tax_name": "KM",
+          "tax_rate": "24.00",
+          "tax_amount": "16.11",
+          "tax_type_code": "EST_240_VAT"
         }
       ],
       "line_items": [
         {
-          "description": "3 CTN spares",
-          "item_type": "GOODS",
-          "uom": "",
-          "quantity": "3",
-          "unit_price": "",
-          "total": "",
-          "discount": "",
-          "discount_percentage": "",
-          "tax_rate": "",
-          "tax_amount": "",
-          "taxes": []
-        },
-        {
           "description": "AGREED PICKUP FEE",
-          "item_type": "SERVICE",
+          "item_type": "FREIGHT",
           "uom": "",
-          "quantity": "1",
-          "unit_price": "24.05",
+          "quantity": "1.00",
+          "unit_price": "5.00",
           "total": "5.00",
           "discount": "",
           "discount_percentage": "",
@@ -67,10 +54,10 @@
         },
         {
           "description": "TARNEKULUD",
-          "item_type": "SERVICE",
+          "item_type": "FREIGHT",
           "uom": "",
-          "quantity": "1",
-          "unit_price": "24.08",
+          "quantity": "1.00",
+          "unit_price": "53.40",
           "total": "53.40",
           "discount": "",
           "discount_percentage": "",
@@ -79,11 +66,11 @@
           "taxes": []
         },
         {
-          "description": "DELIVERY",
-          "item_type": "SERVICE",
+          "description": "AGREED DELIVERY FEE",
+          "item_type": "FREIGHT",
           "uom": "",
-          "quantity": "1",
-          "unit_price": "0.05",
+          "quantity": "1.00",
+          "unit_price": "5.00",
           "total": "5.00",
           "discount": "",
           "discount_percentage": "",
@@ -92,12 +79,12 @@
           "taxes": []
         },
         {
-          "description": "AGREED FEE",
-          "item_type": "SERVICE",
+          "description": "BAF 6,93%",
+          "item_type": "FREIGHT",
           "uom": "",
-          "quantity": "1",
-          "unit_price": "24.00",
-          "total": "",
+          "quantity": "1.00",
+          "unit_price": "3.70",
+          "total": "3.70",
           "discount": "",
           "discount_percentage": "",
           "tax_rate": "",
@@ -105,12 +92,12 @@
           "taxes": []
         },
         {
-          "description": "BAF 6,93% (16.03-29.03)",
-          "item_type": "SERVICE",
-          "uom": "",
-          "quantity": "1",
-          "unit_price": "24.05",
-          "total": "3.70",
+          "description": "3 CTN spares",
+          "item_type": "GOODS",
+          "uom": "CTN",
+          "quantity": "3.00",
+          "unit_price": "",
+          "total": "",
           "discount": "",
           "discount_percentage": "",
           "tax_rate": "",

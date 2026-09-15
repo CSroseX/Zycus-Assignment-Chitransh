@@ -29,21 +29,13 @@
       "insurance_charges": "0.00",
       "extra_charges": "0.00",
       "excise_duties": "0.00",
-      "taxes": [
-        {
-          "tax_type": "VAT",
-          "tax_name": "TAX 0%",
-          "tax_rate": "0.00",
-          "tax_amount": "0.00",
-          "tax_type_code": "DE_000_RC"
-        }
-      ],
+      "taxes": [],
       "line_items": [
         {
-          "description": "5/31/18 1- 15 15 passenger van from Philly going to DC pick back up in DC coming back to to Philly . 8:30am to 5:30pm 9hr",
-          "item_type": "GOODS",
+          "description": "15 passenger van from Philly going to DC pick back up in DC coming back to to Philly . 8:30am to 5:30pm 9hr",
+          "item_type": "SERVICE",
           "uom": "",
-          "quantity": "1",
+          "quantity": "1.00",
           "unit_price": "750.00",
           "total": "750.00",
           "discount": "0.00",
@@ -54,9 +46,9 @@
         },
         {
           "description": "",
-          "item_type": "GOODS",
+          "item_type": "SERVICE",
           "uom": "",
-          "quantity": "1",
+          "quantity": "1.00",
           "unit_price": "0.00",
           "total": "0.00",
           "discount": "0.00",

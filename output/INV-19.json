@@ -21,8 +21,8 @@
       "payment_term_id": "",
       "po_number": "",
       "po_id": "",
-      "gross_total": "8,045.40",
-      "subtotal": "6,600.00",
+      "gross_total": "8045.40",
+      "subtotal": "6600.00",
       "total_tax_amount": "",
       "discount_amount": "0.00",
       "freight_charges": "0.00",
@@ -32,30 +32,30 @@
       "taxes": [
         {
           "tax_type": "NHIL",
-          "tax_name": "NHIL",
+          "tax_name": "NHIL (2.5%)",
           "tax_rate": "2.50",
           "tax_amount": "165.00",
           "tax_type_code": "TAX029"
         },
         {
           "tax_type": "GETFund Levy",
-          "tax_name": "GETFund Levy",
+          "tax_name": "GETFund Levy (2.5%)",
           "tax_rate": "2.50",
           "tax_amount": "165.00",
           "tax_type_code": "TAX029"
         },
         {
           "tax_type": "COVID-19 Levy",
-          "tax_name": "COVID-19 Levy",
+          "tax_name": "COVID-19 Levy (1%)",
           "tax_rate": "1.00",
           "tax_amount": "66.00",
           "tax_type_code": "TAX030"
         },
         {
           "tax_type": "VAT",
-          "tax_name": "VAT",
+          "tax_name": "VAT (15%)",
           "tax_rate": "15.00",
-          "tax_amount": "1,049.40",
+          "tax_amount": "1049.40",
           "tax_type_code": "ZAF_150_VAT"
         }
       ],
@@ -64,26 +64,26 @@
           "description": "Meal per head",
           "item_type": "GOODS",
           "uom": "",
-          "quantity": "60",
+          "quantity": "60.00",
           "unit_price": "90.00",
-          "total": "5,400.00",
+          "total": "5400.00",
           "discount": "0.00",
           "discount_percentage": "0.00",
-          "tax_rate": "0.00",
-          "tax_amount": "0.00",
+          "tax_rate": "",
+          "tax_amount": "",
           "taxes": []
         },
         {
           "description": "Transportation and Set up",
           "item_type": "SERVICE",
           "uom": "",
-          "quantity": "1",
-          "unit_price": "1,200.00",
-          "total": "1,200.00",
+          "quantity": "1.00",
+          "unit_price": "1200.00",
+          "total": "1200.00",
           "discount": "0.00",
           "discount_percentage": "0.00",
-          "tax_rate": "0.00",
-          "tax_amount": "0.00",
+          "tax_rate": "",
+          "tax_amount": "",
           "taxes": []
         }
       ]

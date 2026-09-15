@@ -10,8 +10,8 @@
       "supplier": {
         "name": "Vantek Asia Pte Ltd",
         "supplier_id": "",
-        "address": "Jalan Ampang 08, Singapore 539775",
-        "vat_id": ""
+        "address": "High Street 7 #03-66/67/68/69 Singapore 737664",
+        "vat_id": "207490313H"
       },
       "buyer": {
         "company_code": "BOLTGROUP",
@@ -19,37 +19,29 @@
         "location_code": "LOC_MY_001"
       },
       "payment_term_id": "Net_90",
-      "po_number": "",
+      "po_number": "3057199",
       "po_id": "",
-      "gross_total": "3057199.00",
-      "subtotal": "3057199.00",
-      "total_tax_amount": "",
-      "discount_amount": "",
-      "freight_charges": "",
-      "insurance_charges": "",
-      "extra_charges": "",
-      "excise_duties": "",
-      "taxes": [
-        {
-          "tax_type": "",
-          "tax_name": "",
-          "tax_rate": "",
-          "tax_amount": "",
-          "tax_type_code": ""
-        }
-      ],
+      "gross_total": "771.66",
+      "subtotal": "771.66",
+      "total_tax_amount": "0.00",
+      "discount_amount": "0.00",
+      "freight_charges": "0.00",
+      "insurance_charges": "0.00",
+      "extra_charges": "0.00",
+      "excise_duties": "0.00",
+      "taxes": [],
       "line_items": [
         {
-          "description": "PC",
+          "description": "F:WSA89424080 HSS (N) H2940 DKC",
           "item_type": "GOODS",
-          "uom": "",
-          "quantity": "100",
+          "uom": "PC",
+          "quantity": "100.00",
           "unit_price": "771.66",
           "total": "771.66",
-          "discount": "",
-          "discount_percentage": "",
-          "tax_rate": "",
-          "tax_amount": "771.66",
+          "discount": "0.00",
+          "discount_percentage": "0.00",
+          "tax_rate": "0.00",
+          "tax_amount": "0.00",
           "taxes": []
         }
       ]

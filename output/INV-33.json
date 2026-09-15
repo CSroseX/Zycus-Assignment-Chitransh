@@ -8,9 +8,9 @@
       "invoice_type": "INVOICE",
       "currency": "SGD",
       "supplier": {
-        "name": "AD Notions INT'L PTE, LTD",
+        "name": "AD Notions INT'L PTE LTD",
         "supplier_id": "",
-        "address": "20 Sin Ming Lane, Midview City #08-81, Singapore 573968",
+        "address": "20 Sin Ming Lane, Midview City, #08-81, Singapore 573968",
         "vat_id": ""
       },
       "buyer": {
@@ -29,26 +29,18 @@
       "insurance_charges": "0.00",
       "extra_charges": "0.00",
       "excise_duties": "0.00",
-      "taxes": [
-        {
-          "tax_type": "",
-          "tax_name": "",
-          "tax_rate": "",
-          "tax_amount": "0.00",
-          "tax_type_code": ""
-        }
-      ],
+      "taxes": [],
       "line_items": [
         {
           "description": "PROJECT Pillar-Signage Panel For Shuttle Service At T2 Coach Bay (Lot No_8)",
           "item_type": "GOODS",
           "uom": "pc",
-          "quantity": "1",
+          "quantity": "1.00",
           "unit_price": "250.00",
           "total": "250.00",
           "discount": "0.00",
-          "discount_percentage": "",
-          "tax_rate": "",
+          "discount_percentage": "0.00",
+          "tax_rate": "0.00",
           "tax_amount": "0.00",
           "taxes": []
         }

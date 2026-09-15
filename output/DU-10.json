@@ -2,7 +2,7 @@
   "file": "DU-10.pdf",
   "payables": [
     {
-      "invoice_number": "0394289238",
+      "invoice_number": "5900366703",
       "invoice_date": "2026-04-15",
       "due_date": "2026-05-15",
       "invoice_type": "CREDIT_MEMO",
@@ -10,7 +10,7 @@
       "supplier": {
         "name": "Northwind Services UK Limited",
         "supplier_id": "",
-        "address": "Jalan Ampang 157, Jalan Ampang 175, London SE1 4GT, UNITED KINGDOM",
+        "address": "Jalan Ampang 157, London SE1 4GT, UNITED KINGDOM",
         "vat_id": "GB726874417"
       },
       "buyer": {
@@ -19,21 +19,21 @@
         "location_code": "LOC_GB_001"
       },
       "payment_term_id": "Net_30",
-      "po_number": "",
+      "po_number": "REF-11966",
       "po_id": "",
-      "gross_total": "5,076.17",
-      "subtotal": "4,230.14",
+      "gross_total": "5076.17",
+      "subtotal": "4230.14",
       "total_tax_amount": "846.03",
-      "discount_amount": "",
-      "freight_charges": "",
-      "insurance_charges": "",
-      "extra_charges": "",
-      "excise_duties": "",
+      "discount_amount": "0.00",
+      "freight_charges": "0.00",
+      "insurance_charges": "0.00",
+      "extra_charges": "0.00",
+      "excise_duties": "0.00",
       "taxes": [
         {
           "tax_type": "VAT",
-          "tax_name": "VAT",
-          "tax_rate": "20%",
+          "tax_name": "VAT 20%",
+          "tax_rate": "20.00",
           "tax_amount": "846.03",
           "tax_type_code": "GB_200_VAT"
         }
@@ -43,26 +43,26 @@
           "description": "Logitech Tap Scheduler Touch Controller",
           "item_type": "GOODS",
           "uom": "",
-          "quantity": "952-000091",
+          "quantity": "1.00",
           "unit_price": "457.24",
-          "total": "2,743.44",
-          "discount": "",
-          "discount_percentage": "",
-          "tax_rate": "20%",
-          "tax_amount": "457.24",
+          "total": "2743.44",
+          "discount": "0.00",
+          "discount_percentage": "0.00",
+          "tax_rate": "",
+          "tax_amount": "",
           "taxes": []
         },
         {
           "description": "Logitech Tap Touch Controller CatSe Kit",
           "item_type": "GOODS",
           "uom": "",
-          "quantity": "939-001950",
+          "quantity": "2.00",
           "unit_price": "743.35",
-          "total": "1,486.70",
-          "discount": "",
-          "discount_percentage": "",
-          "tax_rate": "20%",
-          "tax_amount": "743.35",
+          "total": "1486.70",
+          "discount": "0.00",
+          "discount_percentage": "0.00",
+          "tax_rate": "",
+          "tax_amount": "",
           "taxes": []
         }
       ]

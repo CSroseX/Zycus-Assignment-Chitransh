@@ -33,9 +33,9 @@
         {
           "tax_type": "GST",
           "tax_name": "Goods and Services Tax",
-          "tax_rate": "",
+          "tax_rate": "10.00",
           "tax_amount": "52.00",
-          "tax_type_code": ""
+          "tax_type_code": "VN_100_VAT"
         }
       ],
       "line_items": [
@@ -49,7 +49,7 @@
           "discount": "0.00",
           "discount_percentage": "0.00",
           "tax_rate": "",
-          "tax_amount": "52.00",
+          "tax_amount": "",
           "taxes": []
         }
       ]

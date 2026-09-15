@@ -6,12 +6,12 @@
       "invoice_date": "2026-03-25",
       "due_date": "2026-04-24",
       "invoice_type": "INVOICE",
-      "currency": "",
+      "currency": "EUR",
       "supplier": {
         "name": "Larkspur Print OU",
         "supplier_id": "",
         "address": "Jalan Ampang 60, Tallinn, Harju maakond, 10412",
-        "vat_id": "EE684837406967098266"
+        "vat_id": "EE755780626"
       },
       "buyer": {
         "company_code": "BOLTGROUP",
@@ -32,7 +32,7 @@
       "taxes": [
         {
           "tax_type": "VAT",
-          "tax_name": "Kiibemaks",
+          "tax_name": "Kiibemaks 24%",
           "tax_rate": "24.00",
           "tax_amount": "115.03",
           "tax_type_code": "EST_240_VAT"
@@ -46,7 +46,20 @@
           "quantity": "1.00",
           "unit_price": "479.28",
           "total": "479.28",
-          "discount": "-0.01",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Umardus",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1.00",
+          "unit_price": "0.01",
+          "total": "0.01",
+          "discount": "",
           "discount_percentage": "",
           "tax_rate": "",
           "tax_amount": "",

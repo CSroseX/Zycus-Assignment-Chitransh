@@ -21,9 +21,9 @@
       "payment_term_id": "",
       "po_number": "9267418170",
       "po_id": "",
-      "gross_total": "148,941.47",
-      "subtotal": "129,514.32",
-      "total_tax_amount": "19,427.15",
+      "gross_total": "148941.47",
+      "subtotal": "129514.32",
+      "total_tax_amount": "19427.15",
       "discount_amount": "0.00",
       "freight_charges": "",
       "insurance_charges": "",
@@ -34,7 +34,7 @@
           "tax_type": "VAT",
           "tax_name": "",
           "tax_rate": "",
-          "tax_amount": "19,427.15",
+          "tax_amount": "19427.15",
           "tax_type_code": ""
         }
       ],
@@ -42,12 +42,12 @@
         {
           "description": "Hall's Smooth Fruit Punch Ilt M 337521",
           "item_type": "GOODS",
-          "uom": "1000",
-          "quantity": "468.0",
+          "uom": "",
+          "quantity": "468.00",
           "unit_price": "276.74",
-          "total": "129,514.32",
+          "total": "129514.32",
           "discount": "0.00",
-          "discount_percentage": "0.00%",
+          "discount_percentage": "0.00",
           "tax_rate": "",
           "tax_amount": "",
           "taxes": []

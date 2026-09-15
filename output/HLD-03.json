@@ -6,11 +6,11 @@
       "invoice_date": "2025-12-02",
       "due_date": "2026-01-01",
       "invoice_type": "INVOICE",
-      "currency": "",
+      "currency": "EUR",
       "supplier": {
         "name": "Elackpine Unipessoal Lda",
         "supplier_id": "",
-        "address": "Rua Kadaka tee 224, 1250-148 Lisboa",
+        "address": "Kadaka tee 224, 1250-148 Lisboa",
         "vat_id": "PT9840S"
       },
       "buyer": {
@@ -40,16 +40,16 @@
       ],
       "line_items": [
         {
-          "description": "CX TRINCA ALET22 6XISOO CXE NTT",
+          "description": "TRINCA ALET22 6XISOO CXE NTT",
           "item_type": "GOODS",
           "uom": "",
-          "quantity": "135",
-          "unit_price": "123.36",
+          "quantity": "135.00",
+          "unit_price": "0.91",
           "total": "123.36",
           "discount": "63.85",
           "discount_percentage": "61.76",
-          "tax_rate": "13.00",
-          "tax_amount": "7.74",
+          "tax_rate": "",
+          "tax_amount": "",
           "taxes": []
         }
       ]

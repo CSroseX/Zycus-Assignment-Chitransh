@@ -2,7 +2,7 @@
   "file": "INV-35.pdf",
   "payables": [
     {
-      "invoice_number": "0248727220",
+      "invoice_number": "1817680",
       "invoice_date": "2018-06-27",
       "due_date": "",
       "invoice_type": "INVOICE",
@@ -41,54 +41,54 @@
       "line_items": [
         {
           "description": "Basic Fee",
-          "item_type": "GOODS",
+          "item_type": "SERVICE",
           "uom": "",
-          "quantity": "1",
+          "quantity": "1.00",
           "unit_price": "25.50",
           "total": "25.50",
           "discount": "0.00",
           "discount_percentage": "0.00",
           "tax_rate": "",
-          "tax_amount": "0.00",
+          "tax_amount": "",
           "taxes": []
         },
         {
           "description": "Retrieval Fee",
-          "item_type": "GOODS",
+          "item_type": "SERVICE",
           "uom": "",
-          "quantity": "1",
+          "quantity": "1.00",
           "unit_price": "0.00",
           "total": "0.00",
           "discount": "0.00",
           "discount_percentage": "0.00",
           "tax_rate": "",
-          "tax_amount": "0.00",
+          "tax_amount": "",
           "taxes": []
         },
         {
-          "description": "Per Page Copy (Paper)",
-          "item_type": "GOODS",
+          "description": "Per Page Copy (Paper) 1",
+          "item_type": "SERVICE",
           "uom": "",
-          "quantity": "13",
+          "quantity": "13.00",
           "unit_price": "0.00",
           "total": "0.00",
           "discount": "0.00",
           "discount_percentage": "0.00",
           "tax_rate": "",
-          "tax_amount": "0.00",
+          "tax_amount": "",
           "taxes": []
         },
         {
           "description": "Electronic Data Archive Fee",
-          "item_type": "GOODS",
+          "item_type": "SERVICE",
           "uom": "",
-          "quantity": "1",
+          "quantity": "1.00",
           "unit_price": "2.00",
           "total": "2.00",
           "discount": "0.00",
           "discount_percentage": "0.00",
           "tax_rate": "",
-          "tax_amount": "0.00",
+          "tax_amount": "",
           "taxes": []
         }
       ]

@@ -10,7 +10,7 @@
       "supplier": {
         "name": "Larkspur Distribution Meridian Print",
         "supplier_id": "",
-        "address": "Gartenweg 173, F04, Kiepersol House, Bahnhofstrasse 300, Darrenwood, Gauteng, 2195",
+        "address": "Gartenweg 173, M5 Office Park, Unit 7, Block B, Maitland, Western Cape, Cape Town 7405, South Africa",
         "vat_id": "9446639440"
       },
       "buyer": {
@@ -21,20 +21,20 @@
       "payment_term_id": "",
       "po_number": "",
       "po_id": "",
-      "gross_total": "19,730.55",
-      "subtotal": "17,157.00",
-      "total_tax_amount": "2,573.55",
-      "discount_amount": "13,110.00",
-      "freight_charges": "0.00",
-      "insurance_charges": "0.00",
-      "extra_charges": "0.00",
-      "excise_duties": "0.00",
+      "gross_total": "6620.55",
+      "subtotal": "17157.00",
+      "total_tax_amount": "2573.55",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
       "taxes": [
         {
           "tax_type": "VAT",
-          "tax_name": "VAT",
+          "tax_name": "",
           "tax_rate": "15.00",
-          "tax_amount": "2,573.55",
+          "tax_amount": "2573.55",
           "tax_type_code": "ZAF_150_VAT"
         }
       ],
@@ -43,22 +43,14 @@
           "description": "Standard Criminal Verification",
           "item_type": "GOODS",
           "uom": "",
-          "quantity": "1.00",
-          "unit_price": "17,157.00",
-          "total": "17,157.00",
-          "discount": "0.00",
-          "discount_percentage": "0.00",
-          "tax_rate": "15.00",
-          "tax_amount": "2,573.55",
-          "taxes": [
-            {
-              "tax_type": "VAT",
-              "tax_name": "VAT",
-              "tax_rate": "15.00",
-              "tax_amount": "2,573.55",
-              "tax_type_code": "ZAF_150_VAT"
-            }
-          ]
+          "quantity": "133.00",
+          "unit_price": "129.00",
+          "total": "17157.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
         }
       ]
     }

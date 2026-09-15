@@ -8,9 +8,9 @@
       "invoice_type": "INVOICE",
       "currency": "EUR",
       "supplier": {
-        "name": "Speedwell Estonia AS",
+        "name": "Northwind Operations OU",
         "supplier_id": "",
-        "address": "High Street 36, 75310 Harju maakond, Eesti",
+        "address": "High Street 36, 75310 Harju maakond, Estonia",
         "vat_id": ""
       },
       "buyer": {
@@ -24,7 +24,7 @@
       "gross_total": "254.52",
       "subtotal": "223.98",
       "total_tax_amount": "30.54",
-      "discount_amount": "0.00",
+      "discount_amount": "",
       "freight_charges": "",
       "insurance_charges": "",
       "extra_charges": "66.36",
@@ -32,8 +32,8 @@
       "taxes": [
         {
           "tax_type": "VAT",
-          "tax_name": "",
-          "tax_rate": "24.00%",
+          "tax_name": "KM",
+          "tax_rate": "24.00",
           "tax_amount": "30.54",
           "tax_type_code": "EST_240_VAT"
         }
@@ -44,7 +44,7 @@
           "item_type": "GOODS",
           "uom": "",
           "quantity": "4.00",
-          "unit_price": "",
+          "unit_price": "65.26",
           "total": "96.73",
           "discount": "",
           "discount_percentage": "",
@@ -57,7 +57,7 @@
           "item_type": "GOODS",
           "uom": "",
           "quantity": "3.00",
-          "unit_price": "",
+          "unit_price": "38.00",
           "total": "157.78",
           "discount": "",
           "discount_percentage": "",
@@ -69,8 +69,8 @@
           "description": "FUEL",
           "item_type": "SERVICE",
           "uom": "",
-          "quantity": "",
-          "unit_price": "",
+          "quantity": "1.00",
+          "unit_price": "64.04",
           "total": "64.04",
           "discount": "",
           "discount_percentage": "",
@@ -82,8 +82,8 @@
           "description": "PLUS",
           "item_type": "SERVICE",
           "uom": "",
-          "quantity": "",
-          "unit_price": "",
+          "quantity": "1.00",
+          "unit_price": "2.32",
           "total": "2.32",
           "discount": "",
           "discount_percentage": "",

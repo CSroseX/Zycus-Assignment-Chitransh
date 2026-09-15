@@ -6,11 +6,11 @@
       "invoice_date": "2018-06-01",
       "due_date": "2018-06-01",
       "invoice_type": "INVOICE",
-      "currency": "",
+      "currency": "USD",
       "supplier": {
-        "name": "100 Airport KPG III, LLC",
+        "name": "PECO",
         "supplier_id": "",
-        "address": "100 Airport KPG III, LLC. Suite 400 125 E Elm Street Conshohocken, PA 19428",
+        "address": "100 Stevens Dr, A1 1, Lester",
         "vat_id": ""
       },
       "buyer": {
@@ -21,7 +21,7 @@
       "payment_term_id": "Monthly_in_advance",
       "po_number": "16299",
       "po_id": "",
-      "gross_total": "17,657.53",
+      "gross_total": "17657.53",
       "subtotal": "",
       "total_tax_amount": "",
       "discount_amount": "",
@@ -29,23 +29,15 @@
       "insurance_charges": "",
       "extra_charges": "",
       "excise_duties": "",
-      "taxes": [
-        {
-          "tax_type": "",
-          "tax_name": "",
-          "tax_rate": "",
-          "tax_amount": "",
-          "tax_type_code": ""
-        }
-      ],
+      "taxes": [],
       "line_items": [
         {
           "description": "Electric 04/27/18-05/16/18",
           "item_type": "GOODS",
           "uom": "",
-          "quantity": "1",
-          "unit_price": "",
-          "total": "17,657.53",
+          "quantity": "1.00",
+          "unit_price": "17657.53",
+          "total": "17657.53",
           "discount": "",
           "discount_percentage": "",
           "tax_rate": "",
